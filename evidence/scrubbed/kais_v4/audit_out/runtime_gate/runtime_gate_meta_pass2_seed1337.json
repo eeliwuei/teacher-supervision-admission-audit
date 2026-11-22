@@ -1,0 +1,45 @@
+{
+  "tag": "pass2_seed1337",
+  "seed": 1337,
+  "workers_requested": 0,
+  "workers_effective": 0,
+  "ultralytics": "8.4.24",
+  "torch": "2.6.0+cu124",
+  "n_images": 14996,
+  "n_batches": 938,
+  "batch_size": 16,
+  "eligible_rows_in_bank": 9334,
+  "dataset_transforms": "Compose(Compose(<ultralytics.data.augment.Mosaic object at 0x7fe4ed02f4f0>, <ultralytics.data.augment.CopyPaste object at 0x7fe4c0dd56f0>, <ultralytics.data.augment.RandomPerspective object at 0x7fe4bb96ae00>), <ultralytics.data.augment.MixUp object at 0x7fe4c0dd53f0>, <ultralytics.data.augment.CutMix object at 0x7fe4c0dd5480>, <ultralytics.data.augment.Albumentations object at 0x7fe4c0dd5450>, <ultralytics.data.augment.RandomHSV object at 0x7fe4c0dd5b10>, <ultralytics.data.augment.RandomFlip object at 0x7fe4ad2b2c80>, <ultralytics.data.augment.RandomFlip object at 0x7fe4ad2b2e60>, <ultralytics.data.augment.Format object at 0x7fe4ad2b2e30>)",
+  "augment": true,
+  "rect": false,
+  "imgsz": 960,
+  "adapter_sha256": "caea921e94f11467721e7aa223fe6760e0c9b67f2736410aadf20ac39b1ac118",
+  "trainer_sha256": "1750924604eb9c1b2fc7ea0384d540bb716ee52db762357631cd8e1b85d1d28d",
+  "iou_match_thr_default": [
+    0.999
+  ],
+  "batch_keys": [
+    "audit_lb_in_hw",
+    "audit_lb_ratio",
+    "audit_pad_lt",
+    "batch_idx",
+    "bboxes",
+    "cls",
+    "im_file",
+    "img",
+    "ori_shape",
+    "resized_shape"
+  ],
+  "has_ratio_pad_key": false,
+  "images_iterated": 14996,
+  "labels_iterated": 9695,
+  "sum_has_box": 6434,
+  "sum_has_cls": 6265,
+  "gt_uid_kinds": {
+    "no_teacher": 332,
+    "unmatched": 2929,
+    "matched": 6434
+  },
+  "elapsed_s": 275.0,
+  "out_csv": "<PROJECT_ROOT>/kais_v4/audit_out/runtime_gate/runtime_gate_rows_pass2_seed1337.csv"
+}

@@ -1,0 +1,20 @@
+{
+  "run": "C0-R-std-c80_seed42_kaisv4mech",
+  "cell": "C0-R-std-c80",
+  "seed": 42,
+  "mAP": 0.3594565317431284,
+  "mAP50": 0.541488284507163,
+  "mAP75": 0.3765659274995822,
+  "per_class": {
+    "knife": 0.41572599277434436,
+    "gun": 0.18314169868381575,
+    "stick": 0.4795019037712252
+  },
+  "per_class_ap50": {
+    "knife": 0.6400570542693941,
+    "gun": 0.3684749073404372,
+    "stick": 0.6159328919116577
+  },
+  "checkpoint": "<PROJECT_ROOT>/models/students/C0-R-std-c80_seed42_kaisv4mech/weights/last.pt",
+  "checkpoint_sha256": "43c77ab26af13adaeb804d4e23aa50dcef8361ae559eea59b24eefda318aa845"
+}

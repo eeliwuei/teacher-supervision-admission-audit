@@ -1,0 +1,20 @@
+{
+  "run": "F-MonoSingle_seed1337_v3factorial_intpad",
+  "cell": "mono_single",
+  "seed": 1337,
+  "mAP": 0.37048958606878407,
+  "mAP50": 0.5405899121312319,
+  "mAP75": 0.3903447057498461,
+  "per_class": {
+    "knife": 0.4292939703372684,
+    "gun": 0.1918303537845878,
+    "stick": 0.49034443408449596
+  },
+  "per_class_ap50": {
+    "knife": 0.6313026399047658,
+    "gun": 0.3681943861497176,
+    "stick": 0.622272710339212
+  },
+  "checkpoint": "<PROJECT_ROOT>/models/students/F-MonoSingle_seed1337_v3factorial_intpad/weights/last.pt",
+  "checkpoint_sha256": "40a0574c23d07b76f03f67a250fe2ce1faa33322ec7b65a064a123a28743c923"
+}

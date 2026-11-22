@@ -1,0 +1,14 @@
+{
+ "note": "Totals supplied by the authors for the rows of D2 and other (pooled D5 to D7). They cannot be recomputed from the released files.",
+ "restricted_rows": 5636,
+ "restricted_unique_row_keys": 5636,
+ "restricted_images_pass1": 5119,
+ "restricted_images_pass2": 5119,
+ "restricted_images_in_both_passes": 5119,
+ "restricted_images_pixel_sum_differs_between_passes": 5119,
+ "images_with_rows_in_both_groups": 0,
+ "restricted_static_rows_not_in_pass1": 0,
+ "restricted_pass1_rows_not_in_static": 0,
+ "restricted_static_rows_not_in_pass2": 0,
+ "restricted_pass2_rows_not_in_static": 0
+}

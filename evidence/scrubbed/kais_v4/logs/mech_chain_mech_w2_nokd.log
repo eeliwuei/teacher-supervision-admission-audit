@@ -1,0 +1,5 @@
+2026-11-12T12:41:32Z START C0-R-std_seed42_kaisv4mech host=<HOST> dev=0
+2026-11-13T15:21:27Z DONE C0-R-std_seed42_kaisv4mech rc=0
+2026-11-13T15:21:27Z START C0-R-std_seed1337_kaisv4mech host=<HOST> dev=0
+2026-11-14T15:10:48Z DONE C0-R-std_seed1337_kaisv4mech rc=0
+2026-11-14T15:10:48Z LANE mech_w2_nokd ALL DONE

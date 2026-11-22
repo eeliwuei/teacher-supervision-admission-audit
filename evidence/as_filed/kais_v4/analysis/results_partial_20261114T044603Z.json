@@ -1,0 +1,400 @@
+{
+ "threshold": 0.0171,
+ "band": 0.01,
+ "primary_frozen": {
+  "per_seed": [
+   0.018227704433364522,
+   -0.0003406922782011046,
+   0.02182944281695076
+  ],
+  "mean": 0.01323881832403806,
+  "sd": 0.011897287967986402,
+  "ci95": [
+   -0.016315683384424167,
+   0.04279332003250029
+  ],
+  "t": 1.9273557159505057,
+  "p_two_sided": 0.1937584874380789,
+  "same_sign": false,
+  "decision": "inconclusive"
+ },
+ "primary_concurrent_A3": {
+  "not_available": "[Errno 2] No such file or directory: 'eval/factorial_v3_freeze/C4-M_seed1337_kaisv4/metrics_unified.json'"
+ },
+ "baseline_contrasts": {
+  "C1-M - C0-R": {
+   "per_seed": [
+    -0.00013511315652975364,
+    0.004352587518254847,
+    0.024295729018290246
+   ],
+   "mean": 0.00950440112667178,
+   "sd": 0.013004706837704699,
+   "ci95": [
+    -0.022801081558727496,
+    0.041809883812071055
+   ],
+   "t": 1.2658574970088237,
+   "p_two_sided": 0.33305635265643163,
+   "same_sign": false,
+   "p_holm": 0.6661127053128633
+  },
+  "C1-M - CBox-M": {
+   "per_seed": [
+    0.011991665729128242,
+    0.007973483207019294,
+    0.014450267785961812
+   ],
+   "mean": 0.01147180557403645,
+   "sd": 0.003269537514105925,
+   "ci95": [
+    0.0033498241353641465,
+    0.019593787012708752
+   ],
+   "t": 6.07723570170336,
+   "p_two_sided": 0.026023909397680324,
+   "same_sign": true,
+   "p_holm": 0.07807172819304098
+  },
+  "C4-M - C1-M": {
+   "per_seed": [
+    0.011524965149770028,
+    -0.012852157312690793,
+    0.006439631267639245
+   ],
+   "mean": 0.0017041463682394935,
+   "sd": 0.012860001470131536,
+   "ci95": [
+    -0.03024186825648305,
+    0.03365016099296204
+   ],
+   "t": 0.2295231536466219,
+   "p_two_sided": 0.8397987928834706,
+   "same_sign": false,
+   "p_holm": 0.8397987928834706
+  }
+ },
+ "C4-M - C1-M concurrent_A3": {
+  "not_available": "[Errno 2] No such file or directory: 'eval/factorial_v3_freeze/C4-M_seed1337_kaisv4/metrics_unified.json'"
+ },
+ "reused_minus_concurrent": {
+  "not_available": "[Errno 2] No such file or directory: 'eval/factorial_v3_freeze/C4-M_seed1337_kaisv4/metrics_unified.json'"
+ },
+ "shuffled_grid_anova": {
+  "grid": [
+   [
+    0.3560625783773727,
+    0.36754603993578217,
+    0.37081257158304437
+   ],
+   [
+    0.3652761098113491,
+    0.3802791169528586,
+    0.35303376415051013
+   ],
+   [
+    0.35934062411353873,
+    0.3647431377930197,
+    0.37264989455538344
+   ],
+   [
+    0.376860047216374,
+    0.37075281870628024,
+    0.37126104743169686
+   ]
+  ],
+  "grand_mean": 0.36738481255226746,
+  "MS_schedule": 4.23823630845544e-05,
+  "MS_seed": 4.213906940163145e-05,
+  "MS_residual": 8.679380404259281e-05,
+  "df": [
+   3,
+   2,
+   6
+  ],
+  "var_schedule": -1.4803813652679468e-05,
+  "var_seed": -1.1163683660240339e-05,
+  "var_residual": 8.679380404259281e-05,
+  "note": "variance components by the method of moments; negative estimates reported as computed"
+ },
+ "crossed_A2_frozen": {
+  "grand_mean": 0.013238818324038051,
+  "se": 0.006594002344395605,
+  "df_satterthwaite": 1.6791191279789484,
+  "ci95": [
+   -0.021017977937484666,
+   0.04749561458556077
+  ],
+  "MS": [
+   4.238236308455447e-05,
+   0.000566181843972775,
+   8.679380404259281e-05
+  ]
+ },
+ "crossed_A2_concurrent": {
+  "not_available": "[Errno 2] No such file or directory: 'eval/factorial_v3_freeze/C4-M_seed1337_kaisv4/metrics_unified.json'"
+ },
+ "mechanism": {
+  "Q1": {
+   "not_available": "[Errno 2] No such file or directory: 'eval/factorial_v3_freeze/C1-M-fixall_seed42_kaisv4mech/metrics_unified.json'"
+  },
+  "Q2": {
+   "not_available": "[Errno 2] No such file or directory: 'eval/factorial_v3_freeze/C1-M-oldmask_seed42_kaisv4mech/metrics_unified.json'"
+  },
+  "Q3": {
+   "not_available": "[Errno 2] No such file or directory: 'eval/factorial_v3_freeze/C1-M-oldmask_seed42_kaisv4mech/metrics_unified.json'"
+  },
+  "Q4": {
+   "not_available": "[Errno 2] No such file or directory: 'eval/factorial_v3_freeze/C1-M-randmask_seed42_kaisv4mech/metrics_unified.json'"
+  },
+  "Q5": {
+   "not_available": "[Errno 2] No such file or directory: 'eval/factorial_v3_freeze/C1-M-oldmask_seed42_kaisv4mech/metrics_unified.json'"
+  },
+  "Q6": {
+   "not_available": "[Errno 2] No such file or directory: 'eval/factorial_v3_freeze/C1-M-fixall_seed42_kaisv4mech/metrics_unified.json'"
+  }
+ },
+ "endpoints": {
+  "C0-R-std_seed1337_kaisv4mech": {
+   "not_available": "[Errno 2] No such file or directory: 'eval/factorial_v3_freeze/C0-R-std_seed1337_kaisv4mech/metrics_unified.json'"
+  },
+  "C0-R-std_seed42_kaisv4mech": {
+   "mAP": 0.3594565317431284,
+   "knife": 0.41572599277434436,
+   "gun": 0.18314169868381575,
+   "stick": 0.4795019037712252,
+   "checkpoint_sha256": "6cc91a505195e0dd267893c43e42bd00ea606de24c122d61cff0bf49956b4726"
+  },
+  "C0-R_seed1337_kaisv4": {
+   "mAP": 0.37898915586322,
+   "knife": 0.42115785256191185,
+   "gun": 0.18745257133100596,
+   "stick": 0.5283570436967422,
+   "checkpoint_sha256": "c9fcdc3b0997e48134688fbad9f45b34b2b06deb3f6b3e890da371a77fca4dcb"
+  },
+  "C0-R_seed20260703_kaisv4": {
+   "mAP": 0.35803340196117994,
+   "knife": 0.399825695566517,
+   "gun": 0.17588740797802727,
+   "stick": 0.4983871023389954,
+   "checkpoint_sha256": "cead55710c7a59f9bb2b158bb338ecc974642b17877dcd7453bace2c6a659d46"
+  },
+  "C0-R_seed42_kaisv4": {
+   "mAP": 0.3712226923197829,
+   "knife": 0.4078825338421961,
+   "gun": 0.18610751417544985,
+   "stick": 0.5196780289417029,
+   "checkpoint_sha256": "a28820cd7578fb409fdc1d5d331ddd5b0a65b0777ab7a2e85cec68c17e18bced"
+  },
+  "C1-M-fixall_seed1337_kaisv4mech": {
+   "not_available": "[Errno 2] No such file or directory: 'eval/factorial_v3_freeze/C1-M-fixall_seed1337_kaisv4mech/metrics_unified.json'"
+  },
+  "C1-M-fixall_seed20260703_kaisv4mech": {
+   "mAP": 0.3790202816489692,
+   "knife": 0.4046282338349564,
+   "gun": 0.1887444331631352,
+   "stick": 0.5436881779488162,
+   "checkpoint_sha256": "be6c2a24b88eff9e6f1b3c5807cd13b2d9c5aaed556f9b38c1a6db3d2fbce211"
+  },
+  "C1-M-fixall_seed42_kaisv4mech": {
+   "not_available": "[Errno 2] No such file or directory: 'eval/factorial_v3_freeze/C1-M-fixall_seed42_kaisv4mech/metrics_unified.json'"
+  },
+  "C1-M-oldmask_seed1337_kaisv4mech": {
+   "not_available": "[Errno 2] No such file or directory: 'eval/factorial_v3_freeze/C1-M-oldmask_seed1337_kaisv4mech/metrics_unified.json'"
+  },
+  "C1-M-oldmask_seed20260703_kaisv4mech": {
+   "mAP": 0.3672280977279641,
+   "knife": 0.41268089116987816,
+   "gun": 0.1870663308427449,
+   "stick": 0.5019370711712691,
+   "checkpoint_sha256": "21a7ae1af0028051e8663aea178d4fc0128e719e0f5cda2c6d9028325324b076"
+  },
+  "C1-M-oldmask_seed42_kaisv4mech": {
+   "not_available": "[Errno 2] No such file or directory: 'eval/factorial_v3_freeze/C1-M-oldmask_seed42_kaisv4mech/metrics_unified.json'"
+  },
+  "C1-M-randmask_seed1337_kaisv4mech": {
+   "not_available": "[Errno 2] No such file or directory: 'eval/factorial_v3_freeze/C1-M-randmask_seed1337_kaisv4mech/metrics_unified.json'"
+  },
+  "C1-M-randmask_seed20260703_kaisv4mech": {
+   "mAP": 0.36259829258585247,
+   "knife": 0.40930703493547343,
+   "gun": 0.19316703279166247,
+   "stick": 0.48532081003042155,
+   "checkpoint_sha256": "7cd871312bd4a8fc490afc7e4d23db44a9cedbf1d5b3772adcbb869d674eb4eb"
+  },
+  "C1-M-randmask_seed42_kaisv4mech": {
+   "not_available": "[Errno 2] No such file or directory: 'eval/factorial_v3_freeze/C1-M-randmask_seed42_kaisv4mech/metrics_unified.json'"
+  },
+  "C1-M-std_seed1337_kaisv4mech": {
+   "mAP": 0.3703275654447731,
+   "knife": 0.4285320933061059,
+   "gun": 0.18855761308135027,
+   "stick": 0.493892989946863,
+   "checkpoint_sha256": "a19c221bf572b50771bc3dee254f73a4d19978c9c027098927cebe0c41900589"
+  },
+  "C1-M-std_seed42_kaisv4mech": {
+   "mAP": 0.38635366229911955,
+   "knife": 0.4248682338009881,
+   "gun": 0.18798833234039167,
+   "stick": 0.546204420755979,
+   "checkpoint_sha256": "8d21291f0a590eccae594f9e4dee9afddd285efcfb3b2aa7ae42b01e48a36672"
+  },
+  "C1-M_seed1337_kaisv4": {
+   "mAP": 0.38334174338147486,
+   "knife": 0.4222569533925505,
+   "gun": 0.1917547629288597,
+   "stick": 0.5360135138230145,
+   "checkpoint_sha256": "ac577c7044d20dd14cea2066b8c9b94d32042f306d645a0d3a25d041f56ad7c1"
+  },
+  "C1-M_seed20260703_kaisv4": {
+   "mAP": 0.3823291309794702,
+   "knife": 0.42530415713781455,
+   "gun": 0.18989952235074564,
+   "stick": 0.5317837134498505,
+   "checkpoint_sha256": "9ae78f37fe710ec2febf023df3f175746ce63ad07aaf27cc7ced042b2a96d048"
+  },
+  "C1-M_seed42_kaisv4": {
+   "mAP": 0.37108757916325313,
+   "knife": 0.4084124816922907,
+   "gun": 0.19381617716557542,
+   "stick": 0.5110340786318935,
+   "checkpoint_sha256": "29eaaa03d88d55c51e79707285a460a4bcd960e048edcc019df5106b18e9513b"
+  },
+  "C4-M_seed1337_kaisv4": {
+   "not_available": "[Errno 2] No such file or directory: 'eval/factorial_v3_freeze/C4-M_seed1337_kaisv4/metrics_unified.json'"
+  },
+  "C4-M_seed20260703_kaisv4": {
+   "mAP": 0.38876876224710943,
+   "knife": 0.43469336268074127,
+   "gun": 0.18958409567394727,
+   "stick": 0.5420288283866397,
+   "checkpoint_sha256": "b3c9093131301aae63bee134728231baa64963933b56f72d969f17d74482a850"
+  },
+  "C4-M_seed42_kaisv4": {
+   "mAP": 0.38261254431302316,
+   "knife": 0.41491470144889536,
+   "gun": 0.1913768192250654,
+   "stick": 0.5415461122651091,
+   "checkpoint_sha256": "ef25eb45e69b81dde37d59b9d4d1ee5bd99ea4e0c1410279bfbc14ce0fb84881"
+  },
+  "CBox-M_seed1337_kaisv4": {
+   "mAP": 0.37536826017445557,
+   "knife": 0.4167303275308497,
+   "gun": 0.19318462306877676,
+   "stick": 0.5161898299237402,
+   "checkpoint_sha256": "d58b9989fa3f8221ae2c15edfd7fcb27cdcd7fd58c744ff1ea7a6c0e81b39267"
+  },
+  "CBox-M_seed20260703_kaisv4": {
+   "mAP": 0.3678788631935084,
+   "knife": 0.4207287866564934,
+   "gun": 0.18015526544243474,
+   "stick": 0.502752537481597,
+   "checkpoint_sha256": "c6eeda5c592222015f62fa99d652a68f453d851d9c5c67720929d095928282f9"
+  },
+  "CBox-M_seed42_kaisv4": {
+   "mAP": 0.3590959134341249,
+   "knife": 0.4080915225426128,
+   "gun": 0.18201095653317437,
+   "stick": 0.48718526122658784,
+   "checkpoint_sha256": "a75b60aa23bf556cd427914fbab69f1ecdc9348ca6640b7bbd14aad7223ce0c8"
+  },
+  "F-MonoSingle_seed1337_v3factorial_intpad": {
+   "mAP": 0.37048958606878407,
+   "knife": 0.4292939703372684,
+   "gun": 0.1918303537845878,
+   "stick": 0.49034443408449596,
+   "checkpoint_sha256": "40a0574c23d07b76f03f67a250fe2ce1faa33322ec7b65a064a123a28743c923"
+  },
+  "F-MonoSingle_seed42_v3factorial_intpad": {
+   "mAP": 0.38261254431302316,
+   "knife": 0.41491470144889536,
+   "gun": 0.1913768192250654,
+   "stick": 0.5415461122651091,
+   "checkpoint_sha256": "4650efaf1fb40218f22ea5d5d5b007b52a62f482eef54c6dfe69b7a9330362b6"
+  },
+  "F-ShufSingle-s4_seed1337_kaisv4": {
+   "mAP": 0.36754603993578217,
+   "knife": 0.4115428408227458,
+   "gun": 0.18119865880917596,
+   "stick": 0.5098966201754247,
+   "checkpoint_sha256": "9025896b26742de85b16b1d11e478fafc8f8880ea12f209d3a97a22316305dcb"
+  },
+  "F-ShufSingle-s4_seed20260703_kaisv4": {
+   "mAP": 0.37081257158304437,
+   "knife": 0.4107319281567604,
+   "gun": 0.18522756020401823,
+   "stick": 0.5164782263883546,
+   "checkpoint_sha256": "f625100e884629c497576ea91fb1b55c6d414ceaab247d02850b5ecd53fc9a30"
+  },
+  "F-ShufSingle-s4_seed42_kaisv4": {
+   "mAP": 0.3560625783773727,
+   "knife": 0.4133228364460228,
+   "gun": 0.1861089286334357,
+   "stick": 0.4687559700526598,
+   "checkpoint_sha256": "e00f43056d34893739ff9525aa5a3a319428da006731b4ebab5219df71821565"
+  },
+  "F-ShufSingle-s5_seed1337_kaisv4": {
+   "mAP": 0.3802791169528586,
+   "knife": 0.43201982323129673,
+   "gun": 0.19171282477153978,
+   "stick": 0.5171047028557393,
+   "checkpoint_sha256": "26b8adf534646daa349cf17f4bf92d40a1850e22fbf32e6e1c4a2299f398e3b6"
+  },
+  "F-ShufSingle-s5_seed20260703_kaisv4": {
+   "mAP": 0.35303376415051013,
+   "knife": 0.4017507343610756,
+   "gun": 0.1765200488293115,
+   "stick": 0.48083050926114324,
+   "checkpoint_sha256": "0695612fb7361fd81b9116bf5bf3b8f696263e5ae4bcbe6e24f1d77433dab1aa"
+  },
+  "F-ShufSingle-s5_seed42_kaisv4": {
+   "mAP": 0.3652761098113491,
+   "knife": 0.39761886878617003,
+   "gun": 0.19081947667286944,
+   "stick": 0.5073899839750078,
+   "checkpoint_sha256": "81960b8c3158ef8ebdbc5bd0c42137a81019a6553489feea0b0ec42d976723fc"
+  },
+  "F-ShufSingle-s6_seed1337_kaisv4": {
+   "mAP": 0.3647431377930197,
+   "knife": 0.4159019570021855,
+   "gun": 0.18456108684105135,
+   "stick": 0.49376636953582226,
+   "checkpoint_sha256": "5d6e07119ee4654bdf6589469fcd8ce68c4a32f5763ebf754de9d40542b53c32"
+  },
+  "F-ShufSingle-s6_seed20260703_kaisv4": {
+   "mAP": 0.37264989455538344,
+   "knife": 0.409755109167848,
+   "gun": 0.1780020693026288,
+   "stick": 0.5301925051956736,
+   "checkpoint_sha256": "924f736e59a63a09f8c6eb4de754497b8c42a764f597946d227756223e455776"
+  },
+  "F-ShufSingle-s6_seed42_kaisv4": {
+   "mAP": 0.35934062411353873,
+   "knife": 0.41786951526899757,
+   "gun": 0.1950848278106315,
+   "stick": 0.46506752926098704,
+   "checkpoint_sha256": "77358ace3b421e55ab081a8925c2d463e90c14726ffe522cb6cd6f64bbecc388"
+  },
+  "F-ShufSingle-s7_seed1337_kaisv4": {
+   "mAP": 0.37075281870628024,
+   "knife": 0.413197829621117,
+   "gun": 0.1971699151730868,
+   "stick": 0.5018907113246369,
+   "checkpoint_sha256": "c5eabf7ba802cf5c8eac21d5706399c2b2048e370a21666ff96e553a3ee6988e"
+  },
+  "F-ShufSingle-s7_seed20260703_kaisv4": {
+   "mAP": 0.37126104743169686,
+   "knife": 0.41757311234179384,
+   "gun": 0.18922589825672723,
+   "stick": 0.5069841316965694,
+   "checkpoint_sha256": "903939aaae18bd4cad99f3494fe950e73fa46e5dcb0e994be4ede6b18be5c4eb"
+  },
+  "F-ShufSingle-s7_seed42_kaisv4": {
+   "mAP": 0.376860047216374,
+   "knife": 0.4127800310571816,
+   "gun": 0.18736137980373221,
+   "stick": 0.5304387307882084,
+   "checkpoint_sha256": "7bff962065fd50ca621ba1280f1e1aaa94b2d37577d339f675641efe65e47fc9"
+  }
+ }
+}

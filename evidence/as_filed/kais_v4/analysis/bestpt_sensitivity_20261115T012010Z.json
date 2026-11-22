@@ -1,0 +1,295 @@
+{
+ "note": "order contrast at the trainer best.pt (sensitivity, Addendum 01 A5); C4-M at seeds 42 and 1337 = November replicates, whose training logs and endpoint predictions are identical to the reused July runs; reused runs themselves are not accepted by eval_kaisv4_best.py",
+ "runs": {
+  "C4-M_seed42_kaisv4": {
+   "mAP_best": 0.40701579234499574,
+   "mAP_last": 0.38261254431302316,
+   "selection": {
+    "n_epochs": 150,
+    "epoch_argmax_0.1mAP50+0.9mAP50-95": 72,
+    "epoch_argmax_mAP50-95": 72,
+    "note": "inferred from results.csv (first maximum); the stripped best.pt does not store its epoch, and the trainer's fitness definition was not verified in the library source"
+   }
+  },
+  "F-ShufSingle-s4_seed42_kaisv4": {
+   "mAP_best": 0.40350307023839393,
+   "mAP_last": 0.3560625783773727,
+   "selection": {
+    "n_epochs": 150,
+    "epoch_argmax_0.1mAP50+0.9mAP50-95": 53,
+    "epoch_argmax_mAP50-95": 53,
+    "note": "inferred from results.csv (first maximum); the stripped best.pt does not store its epoch, and the trainer's fitness definition was not verified in the library source"
+   }
+  },
+  "F-ShufSingle-s5_seed42_kaisv4": {
+   "mAP_best": 0.400549916735676,
+   "mAP_last": 0.3652761098113491,
+   "selection": {
+    "n_epochs": 150,
+    "epoch_argmax_0.1mAP50+0.9mAP50-95": 86,
+    "epoch_argmax_mAP50-95": 86,
+    "note": "inferred from results.csv (first maximum); the stripped best.pt does not store its epoch, and the trainer's fitness definition was not verified in the library source"
+   }
+  },
+  "F-ShufSingle-s6_seed42_kaisv4": {
+   "mAP_best": 0.41305132383052,
+   "mAP_last": 0.35934062411353873,
+   "selection": {
+    "n_epochs": 150,
+    "epoch_argmax_0.1mAP50+0.9mAP50-95": 74,
+    "epoch_argmax_mAP50-95": 74,
+    "note": "inferred from results.csv (first maximum); the stripped best.pt does not store its epoch, and the trainer's fitness definition was not verified in the library source"
+   }
+  },
+  "F-ShufSingle-s7_seed42_kaisv4": {
+   "mAP_best": 0.40955636036737486,
+   "mAP_last": 0.376860047216374,
+   "selection": {
+    "n_epochs": 150,
+    "epoch_argmax_0.1mAP50+0.9mAP50-95": 65,
+    "epoch_argmax_mAP50-95": 65,
+    "note": "inferred from results.csv (first maximum); the stripped best.pt does not store its epoch, and the trainer's fitness definition was not verified in the library source"
+   }
+  },
+  "C4-M_seed1337_kaisv4": {
+   "mAP_best": 0.4167384573202985,
+   "mAP_last": 0.37048958606878407,
+   "selection": {
+    "n_epochs": 150,
+    "epoch_argmax_0.1mAP50+0.9mAP50-95": 69,
+    "epoch_argmax_mAP50-95": 69,
+    "note": "inferred from results.csv (first maximum); the stripped best.pt does not store its epoch, and the trainer's fitness definition was not verified in the library source"
+   }
+  },
+  "F-ShufSingle-s4_seed1337_kaisv4": {
+   "mAP_best": 0.3999275801285867,
+   "mAP_last": 0.36754603993578217,
+   "selection": {
+    "n_epochs": 150,
+    "epoch_argmax_0.1mAP50+0.9mAP50-95": 75,
+    "epoch_argmax_mAP50-95": 75,
+    "note": "inferred from results.csv (first maximum); the stripped best.pt does not store its epoch, and the trainer's fitness definition was not verified in the library source"
+   }
+  },
+  "F-ShufSingle-s5_seed1337_kaisv4": {
+   "mAP_best": 0.4029984044473655,
+   "mAP_last": 0.3802791169528586,
+   "selection": {
+    "n_epochs": 150,
+    "epoch_argmax_0.1mAP50+0.9mAP50-95": 106,
+    "epoch_argmax_mAP50-95": 106,
+    "note": "inferred from results.csv (first maximum); the stripped best.pt does not store its epoch, and the trainer's fitness definition was not verified in the library source"
+   }
+  },
+  "F-ShufSingle-s6_seed1337_kaisv4": {
+   "mAP_best": 0.39691344348708746,
+   "mAP_last": 0.3647431377930197,
+   "selection": {
+    "n_epochs": 150,
+    "epoch_argmax_0.1mAP50+0.9mAP50-95": 79,
+    "epoch_argmax_mAP50-95": 79,
+    "note": "inferred from results.csv (first maximum); the stripped best.pt does not store its epoch, and the trainer's fitness definition was not verified in the library source"
+   }
+  },
+  "F-ShufSingle-s7_seed1337_kaisv4": {
+   "mAP_best": 0.3978642386434164,
+   "mAP_last": 0.37075281870628024,
+   "selection": {
+    "n_epochs": 150,
+    "epoch_argmax_0.1mAP50+0.9mAP50-95": 97,
+    "epoch_argmax_mAP50-95": 97,
+    "note": "inferred from results.csv (first maximum); the stripped best.pt does not store its epoch, and the trainer's fitness definition was not verified in the library source"
+   }
+  },
+  "C4-M_seed20260703_kaisv4": {
+   "mAP_best": 0.41416873329542137,
+   "mAP_last": 0.38876876224710943,
+   "selection": {
+    "n_epochs": 150,
+    "epoch_argmax_0.1mAP50+0.9mAP50-95": 66,
+    "epoch_argmax_mAP50-95": 71,
+    "note": "inferred from results.csv (first maximum); the stripped best.pt does not store its epoch, and the trainer's fitness definition was not verified in the library source"
+   }
+  },
+  "F-ShufSingle-s4_seed20260703_kaisv4": {
+   "mAP_best": 0.4073786526714243,
+   "mAP_last": 0.37081257158304437,
+   "selection": {
+    "n_epochs": 150,
+    "epoch_argmax_0.1mAP50+0.9mAP50-95": 57,
+    "epoch_argmax_mAP50-95": 57,
+    "note": "inferred from results.csv (first maximum); the stripped best.pt does not store its epoch, and the trainer's fitness definition was not verified in the library source"
+   }
+  },
+  "F-ShufSingle-s5_seed20260703_kaisv4": {
+   "mAP_best": 0.3883248422323137,
+   "mAP_last": 0.35303376415051013,
+   "selection": {
+    "n_epochs": 150,
+    "epoch_argmax_0.1mAP50+0.9mAP50-95": 68,
+    "epoch_argmax_mAP50-95": 68,
+    "note": "inferred from results.csv (first maximum); the stripped best.pt does not store its epoch, and the trainer's fitness definition was not verified in the library source"
+   }
+  },
+  "F-ShufSingle-s6_seed20260703_kaisv4": {
+   "mAP_best": 0.4002915127961511,
+   "mAP_last": 0.37264989455538344,
+   "selection": {
+    "n_epochs": 150,
+    "epoch_argmax_0.1mAP50+0.9mAP50-95": 70,
+    "epoch_argmax_mAP50-95": 70,
+    "note": "inferred from results.csv (first maximum); the stripped best.pt does not store its epoch, and the trainer's fitness definition was not verified in the library source"
+   }
+  },
+  "F-ShufSingle-s7_seed20260703_kaisv4": {
+   "mAP_best": 0.4074689975350436,
+   "mAP_last": 0.37126104743169686,
+   "selection": {
+    "n_epochs": 150,
+    "epoch_argmax_0.1mAP50+0.9mAP50-95": 94,
+    "epoch_argmax_mAP50-95": 94,
+    "note": "inferred from results.csv (first maximum); the stripped best.pt does not store its epoch, and the trainer's fitness definition was not verified in the library source"
+   }
+  },
+  "C1-M_seed42_kaisv4": {
+   "mAP_best": 0.4029433077478383,
+   "mAP_last": 0.37108757916325313,
+   "selection": {
+    "n_epochs": 150,
+    "epoch_argmax_0.1mAP50+0.9mAP50-95": 84,
+    "epoch_argmax_mAP50-95": 84,
+    "note": "inferred from results.csv (first maximum); the stripped best.pt does not store its epoch, and the trainer's fitness definition was not verified in the library source"
+   }
+  },
+  "C0-R_seed42_kaisv4": {
+   "mAP_best": 0.3795137444137642,
+   "mAP_last": 0.3712226923197829,
+   "selection": {
+    "n_epochs": 150,
+    "epoch_argmax_0.1mAP50+0.9mAP50-95": 142,
+    "epoch_argmax_mAP50-95": 142,
+    "note": "inferred from results.csv (first maximum); the stripped best.pt does not store its epoch, and the trainer's fitness definition was not verified in the library source"
+   }
+  },
+  "C1-M_seed1337_kaisv4": {
+   "mAP_best": 0.41901274361094637,
+   "mAP_last": 0.38334174338147486,
+   "selection": {
+    "n_epochs": 150,
+    "epoch_argmax_0.1mAP50+0.9mAP50-95": 51,
+    "epoch_argmax_mAP50-95": 51,
+    "note": "inferred from results.csv (first maximum); the stripped best.pt does not store its epoch, and the trainer's fitness definition was not verified in the library source"
+   }
+  },
+  "C0-R_seed1337_kaisv4": {
+   "mAP_best": 0.3807391648504226,
+   "mAP_last": 0.37898915586322,
+   "selection": {
+    "n_epochs": 150,
+    "epoch_argmax_0.1mAP50+0.9mAP50-95": 148,
+    "epoch_argmax_mAP50-95": 148,
+    "note": "inferred from results.csv (first maximum); the stripped best.pt does not store its epoch, and the trainer's fitness definition was not verified in the library source"
+   }
+  },
+  "C1-M_seed20260703_kaisv4": {
+   "mAP_best": 0.4094957881086067,
+   "mAP_last": 0.3823291309794702,
+   "selection": {
+    "n_epochs": 150,
+    "epoch_argmax_0.1mAP50+0.9mAP50-95": 97,
+    "epoch_argmax_mAP50-95": 97,
+    "note": "inferred from results.csv (first maximum); the stripped best.pt does not store its epoch, and the trainer's fitness definition was not verified in the library source"
+   }
+  },
+  "C0-R_seed20260703_kaisv4": {
+   "mAP_best": 0.4019289281847319,
+   "mAP_last": 0.35803340196117994,
+   "selection": {
+    "n_epochs": 150,
+    "epoch_argmax_0.1mAP50+0.9mAP50-95": 108,
+    "epoch_argmax_mAP50-95": 108,
+    "note": "inferred from results.csv (first maximum); the stripped best.pt does not store its epoch, and the trainer's fitness definition was not verified in the library source"
+   }
+  },
+  "CBox-M_seed42_kaisv4": {
+   "mAP_best": 0.3661406076816138,
+   "mAP_last": 0.3590959134341249,
+   "selection": {
+    "n_epochs": 150,
+    "epoch_argmax_0.1mAP50+0.9mAP50-95": 142,
+    "epoch_argmax_mAP50-95": 142,
+    "note": "inferred from results.csv (first maximum); the stripped best.pt does not store its epoch, and the trainer's fitness definition was not verified in the library source"
+   }
+  },
+  "CBox-M_seed1337_kaisv4": {
+   "mAP_best": 0.3874960486076014,
+   "mAP_last": 0.37536826017445557,
+   "selection": {
+    "n_epochs": 150,
+    "epoch_argmax_0.1mAP50+0.9mAP50-95": 132,
+    "epoch_argmax_mAP50-95": 132,
+    "note": "inferred from results.csv (first maximum); the stripped best.pt does not store its epoch, and the trainer's fitness definition was not verified in the library source"
+   }
+  },
+  "CBox-M_seed20260703_kaisv4": {
+   "mAP_best": 0.37427658681143855,
+   "mAP_last": 0.3678788631935084,
+   "selection": {
+    "n_epochs": 150,
+    "epoch_argmax_0.1mAP50+0.9mAP50-95": 137,
+    "epoch_argmax_mAP50-95": 137,
+    "note": "inferred from results.csv (first maximum); the stripped best.pt does not store its epoch, and the trainer's fitness definition was not verified in the library source"
+   }
+  }
+ },
+ "order_contrast_best": {
+  "per_seed": [
+   0.00035062455200451925,
+   0.017312540643684537,
+   0.013302731986688188
+  ],
+  "mean": 0.010321965727459081,
+  "ci95": [
+   -0.011700216319065777,
+   0.032344147773983936
+  ]
+ },
+ "baselines_best": {
+  "B1": {
+   "per_seed": [
+    0.023429563334074144,
+    0.038273578760523785,
+    0.007566859923874791
+   ],
+   "mean": 0.02309000067282424,
+   "ci95": [
+    -0.015056853714823945,
+    0.061236855060472425
+   ]
+  },
+  "B2": {
+   "per_seed": [
+    0.03680270006622449,
+    0.031516695003344974,
+    0.03521920129716816
+   ],
+   "mean": 0.03451286545557921,
+   "ci95": [
+    0.027773731258496876,
+    0.04125199965266154
+   ]
+  },
+  "B3": {
+   "per_seed": [
+    0.004072484597157422,
+    -0.0022742862906478534,
+    0.004672945186814659
+   ],
+   "mean": 0.0021570478311080756,
+   "ci95": [
+    -0.007405327163621061,
+    0.011719422825837211
+   ]
+  }
+ }
+}

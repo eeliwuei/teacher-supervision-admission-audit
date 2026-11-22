@@ -1,0 +1,9 @@
+# To be completed on publication: authors, affiliations, contact and the
+# reference of the article will be added when the article is published.
+# Until then this file has no "authors" entry and is therefore not yet a
+# complete CFF file.
+cff-version: 1.2.0
+message: "The accompanying paper is under review; the citation will be added on publication."
+title: "Teacher-supervision admission audit"
+type: software
+repository-code: "https://github.com/eeliwuei/teacher-supervision-admission-audit"

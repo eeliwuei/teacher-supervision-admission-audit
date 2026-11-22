@@ -1,0 +1,20 @@
+2026-11-14T14:37:05Z
+index, uuid, name, memory.used [MiB]
+0, GPU-<UUID>, NVIDIA A100-PCIE-40GB, 7763 MiB
+1, GPU-<UUID>, NVIDIA A100 80GB PCIe, 1282 MiB
+2, GPU-<UUID>, NVIDIA A100 80GB PCIe, 49887 MiB
+gpu_uuid, pid, used_gpu_memory [MiB]
+GPU-<UUID>, <PID>, 7710 MiB
+GPU-<UUID>, <PID>, 7710 MiB
+GPU-<UUID>, <PID>, 7710 MiB
+GPU-<UUID>, <PID>, 6678 MiB
+GPU-<UUID>, <PID>, 6678 MiB
+GPU-<UUID>, <PID>, 6678 MiB
+GPU-<UUID>, <PID>, 6678 MiB
+<PID> <NAS_ROOT>/envs/ccad_yolo26n_r7525/bin/python tools/ccad/train_yolo26_ccad_stockloop.py --config experiments/ccad_yolo26n/configs/ccad_proj
+<PID> <NAS_ROOT>/envs/ccad_yolo26n_r7525/bin/python tools/ccad/train_yolo26_ccad_stockloop.py --config experiments/ccad_yolo26n/configs/ccad_proj
+<PID> <NAS_ROOT>/envs/ccad_yolo26n_r7525/bin/python experiments/ccad_yolo26n/kais_v4/ablation_fixmap/train_mech.py --config experiments/ccad_yolo
+<PID> <NAS_ROOT>/envs/ccad_yolo26n_r7525/bin/python tools/ccad/train_yolo26_ccad_stockloop.py --config experiments/ccad_yolo26n/configs/ccad_proj
+<PID> <NAS_ROOT>/envs/ccad_yolo26n_r7525/bin/python tools/ccad/train_yolo26_ccad_stockloop.py --config experiments/ccad_yolo26n/configs/ccad_proj
+<PID> <NAS_ROOT>/envs/ccad_yolo26n_r7525/bin/python tools/ccad/train_yolo26_ccad_stockloop.py --config experiments/ccad_yolo26n/configs/ccad_proj
+<PID> <NAS_ROOT>/envs/ccad_yolo26n_r7525/bin/python tools/ccad/train_yolo26_ccad_stockloop.py --config experiments/ccad_yolo26n/configs/ccad_proj

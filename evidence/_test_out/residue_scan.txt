@@ -1,0 +1,34 @@
+Residue scan of the whole bundle (binary files included), 21 Nov 2026.
+Columns: file, matches of: project or storage path | home directory | host name | user name | e-mail-like string
+as_filed/kais_v4/ablation_fixmap/queue_c80.sh	4	0	0	0	0
+as_filed/kais_v4/ablation_fixmap/queue_wave2.sh	2	0	0	0	0
+as_filed/kais_v4/ablation_fixmap/run_abl.sh	2	0	0	0	0
+as_filed/kais_v4/ablation_fixmap/run_mech_c80.sh	2	0	0	0	0
+as_filed/kais_v4/ablation_fixmap/run_mech.sh	2	0	0	0	0
+as_filed/kais_v4/analysis/a04_contrasts_20261115T012010Z.json.tsr	0	0	0	0	7
+as_filed/kais_v4/ANALYSIS_ADDENDUM_01.md.tsr	0	0	0	0	7
+as_filed/kais_v4/ANALYSIS_ADDENDUM_02.md.tsr	0	0	0	0	7
+as_filed/kais_v4/ANALYSIS_ADDENDUM_03.md.tsr	0	0	0	0	7
+as_filed/kais_v4/ANALYSIS_ADDENDUM_04.md.tsr	0	0	0	0	7
+as_filed/kais_v4/ANALYSIS_ADDENDUM_05.md.tsr	0	0	0	0	7
+as_filed/kais_v4/ANALYSIS_ADDENDUM_06.md.tsr	0	0	0	0	7
+as_filed/kais_v4/ANALYSIS_ADDENDUM_06.sha256.tsr	0	0	0	0	7
+as_filed/kais_v4/analysis/bestpt_sensitivity_20261115T012010Z.json.tsr	0	0	0	0	7
+as_filed/kais_v4/ANALYSIS_CODE_RECORD_01.md.tsr	0	0	0	0	7
+as_filed/kais_v4/analysis/eval_kaisv4.py	2	0	0	0	0
+as_filed/kais_v4/analysis/results_add06_20261121T045950Z.json.tsr	0	0	0	0	7
+as_filed/kais_v4/analysis/results_final_sbs_20261115T011951Z.json.tsr	0	0	0	0	7
+as_filed/kais_v4/analysis/results_partial_20261112T201012Z.json.tsr	0	0	0	0	7
+as_filed/kais_v4/analysis/results_partial_20261114T044603Z.json.tsr	0	0	0	0	7
+as_filed/kais_v4/analysis/results_partial_20261114T152024Z.json.tsr	0	0	0	0	7
+as_filed/kais_v4/audit_out/runtime_gate/hist_summaries.py	2	0	0	0	0
+as_filed/kais_v4/audit_out/runtime_gate/runtime_gate_audit.py	2	0	0	0	0
+as_filed/kais_v4/auto_best_loop.sh	4	0	0	0	0
+as_filed/kais_v4/auto_eval_loop2.sh	4	0	0	0	0
+as_filed/kais_v4/auto_eval_loop.sh	4	0	0	0	0
+as_filed/kais_v4/PROTOCOL_KAIS_V4.md.tsr	0	0	0	0	7
+as_filed/kais_v4/queue_L6.sh	2	0	0	0	0
+as_filed/kais_v4/run_v4_cbox.sh	2	0	0	0	0
+as_filed/kais_v4/run_v4_common.sh	2	0	0	0	0
+as_filed/kais_v4/swap_cbox_h100.sh	2	0	0	0	0
+files scanned: 527

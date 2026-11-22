@@ -1,0 +1,23 @@
+{
+ "run": "C1-M-fixall_seed20260703_kaisv4mech",
+ "utc": "2026-11-12T16:28:39.122545Z",
+ "host": "<HOST>",
+ "python": "3.10.12",
+ "torch": "2.6.0+cu124",
+ "ultralytics": "8.4.24",
+ "numpy": "2.2.6",
+ "pycocotools": "?",
+ "coco_method": "pycocotools",
+ "argv": [
+  "C1-M-fixall_seed20260703_kaisv4mech",
+  "--device",
+  "0"
+ ],
+ "gpu": "NVIDIA H100 PCIe",
+ "wrapper_sha256": "66cf85882c5782007e28eea8381783027b9b370532f619aea7b3ae9828e3603b",
+ "evaluator_sha256": "46ed0ceba8e0733998770011dd30c3a21fb9a221f1cd8a772b252eaf4678474d",
+ "phase2b_common_sha256": "b35c8b86ac2b2207889f80a3a0f9799a12233dc97cb4015dcf2abf747d82e9ea",
+ "phase4c_sha256": "2fccf8b1054e8c291222868394184d723c1733c660b83b1f6c43a0a097da5e34",
+ "gt_sha256": "9ba8f56aa852da96459817c7af09a1a1097608c15690aef18dc786efd735de66",
+ "predictions_coco_sha256": "bf16f2d1aeb2a3dce7c318c17aafd8f67fa7e7ab324b89ef7c66087e272e3430"
+}

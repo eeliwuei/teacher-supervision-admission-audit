@@ -1,0 +1,12 @@
+{
+ "replacements": [
+  ["/absolute/path/of/the/project/directory", "<PROJECT_ROOT>"],
+  ["/absolute/path/of/the/shared/storage", "<NAS_ROOT>"],
+  ["(host[=:\\s\"]+)generic-host-word\\b", "\\1<HOST>"],
+  ["\\b(hostname1|hostname2)\\b", "<HOST>"],
+  ["\\b(username1|username2)\\b", "<USER>"]
+ ],
+ "nvidia_smi_keep_index": {
+  "kais_v4/logs/c80_nvidia_smi.txt": 2
+ }
+}

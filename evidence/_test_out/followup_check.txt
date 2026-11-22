@@ -1,0 +1,152 @@
+Follow-up check, 21 Nov 2026 (CPU only). Counts are occurrences / files.
+
+[1] as-filed text (all as_filed files except predictions.json)
+files searched: 171
+method name, any spelling: 4 / 4
+    1	as_filed/kais_v4/ANALYSIS_ADDENDUM_04.md
+    1	as_filed/kais_v4/PROTOCOL_KAIS_V4.md
+    1	as_filed/kais_v4/analysis/bootstrap_a04.py
+    1	as_filed/kais_v4/audit_out/runtime_gate/runtime_gate_audit.py
+journal abbreviation as a word: 15 / 15
+    1	as_filed/kais_v4/ANALYSIS_ADDENDUM_01.md
+    1	as_filed/kais_v4/ANALYSIS_ADDENDUM_02.md
+    1	as_filed/kais_v4/ANALYSIS_ADDENDUM_03.md
+    1	as_filed/kais_v4/ANALYSIS_ADDENDUM_04.md
+    1	as_filed/kais_v4/ANALYSIS_ADDENDUM_05.md
+    1	as_filed/kais_v4/ANALYSIS_ADDENDUM_06.md
+    1	as_filed/kais_v4/ANALYSIS_CODE_RECORD_01.md
+    1	as_filed/kais_v4/PROTOCOL_KAIS_V4.md
+    1	as_filed/kais_v4/ablation_fixmap/run_abl.sh
+    1	as_filed/kais_v4/ablation_fixmap/run_mech.sh
+    1	as_filed/kais_v4/ablation_fixmap/run_mech_c80.sh
+    1	as_filed/kais_v4/analysis/analyze_add06.py
+    1	as_filed/kais_v4/build_v4_shuffled_schedules.py
+    1	as_filed/kais_v4/run_v4_cbox.sh
+    1	as_filed/kais_v4/run_v4_common.sh
+journal abbreviation inside the seed string: 2 / 2
+    1	as_filed/kais_v4/ANALYSIS_ADDENDUM_04.md
+    1	as_filed/kais_v4/analysis/bootstrap_a04.py
+journal abbreviation, upper case, inside file names mentioned in text: 14 / 10
+    1	as_filed/kais_v4/ANALYSIS_ADDENDUM_01.md
+    1	as_filed/kais_v4/ANALYSIS_ADDENDUM_02.md
+    1	as_filed/kais_v4/ANALYSIS_ADDENDUM_03.md
+    1	as_filed/kais_v4/ANALYSIS_ADDENDUM_04.md
+    1	as_filed/kais_v4/ANALYSIS_ADDENDUM_05.md
+    3	as_filed/kais_v4/ANALYSIS_ADDENDUM_06.md
+    1	as_filed/kais_v4/ANALYSIS_CODE_RECORD_01.md
+    1	as_filed/kais_v4/PROTOCOL_KAIS_V4.frozen_at
+    2	as_filed/kais_v4/auto_eval_loop.sh
+    2	as_filed/kais_v4/auto_eval_loop2.sh
+journal abbreviation, upper case, all: 31 / 19
+    2	as_filed/kais_v4/ANALYSIS_ADDENDUM_01.md
+    2	as_filed/kais_v4/ANALYSIS_ADDENDUM_02.md
+    2	as_filed/kais_v4/ANALYSIS_ADDENDUM_03.md
+    3	as_filed/kais_v4/ANALYSIS_ADDENDUM_04.md
+    2	as_filed/kais_v4/ANALYSIS_ADDENDUM_05.md
+    4	as_filed/kais_v4/ANALYSIS_ADDENDUM_06.md
+    2	as_filed/kais_v4/ANALYSIS_CODE_RECORD_01.md
+    1	as_filed/kais_v4/PROTOCOL_KAIS_V4.frozen_at
+    1	as_filed/kais_v4/PROTOCOL_KAIS_V4.md
+    1	as_filed/kais_v4/ablation_fixmap/run_abl.sh
+    1	as_filed/kais_v4/ablation_fixmap/run_mech.sh
+    1	as_filed/kais_v4/ablation_fixmap/run_mech_c80.sh
+    1	as_filed/kais_v4/analysis/analyze_add06.py
+    1	as_filed/kais_v4/analysis/bootstrap_a04.py
+    2	as_filed/kais_v4/auto_eval_loop.sh
+    2	as_filed/kais_v4/auto_eval_loop2.sh
+    1	as_filed/kais_v4/build_v4_shuffled_schedules.py
+    1	as_filed/kais_v4/run_v4_cbox.sh
+    1	as_filed/kais_v4/run_v4_common.sh
+journal abbreviation, lower case: 458 / 80
+journal abbreviation, any case: 489 / 82
+predictions.json files containing either: 0 of 46
+
+[2] contents of scrubbed/ and tools/
+files searched: 308
+project token: 322 / 55
+    1 file(s)	scrubbed/SCRUB_TABLE.tsv
+    1 file(s)	scrubbed/kais_v4/PROVENANCE_KAIS_V4.md
+    1 file(s)	scrubbed/kais_v4/analysis/eval_kaisv4_best.py
+    1 file(s)	scrubbed/kais_v4/audit_out/runtime_gate/pre_train_cache.sha256
+    1 file(s)	scrubbed/kais_v4/audit_out/runtime_gate/run_pass1_seed42.log
+    1 file(s)	scrubbed/kais_v4/audit_out/runtime_gate/run_pass2_seed1337.log
+    1 file(s)	scrubbed/kais_v4/logs/SMOKE_r7525.log
+    1 file(s)	scrubbed/kais_v4/logs/c80_nvidia_smi.txt
+    46 file(s)	scrubbed/models/students/<run>/ccad_stockloop_run_summary.json
+    1 file(s)	tools/scrub.list
+project token as folder under experiments/: 101 / 48
+    1 file(s)	scrubbed/kais_v4/logs/SMOKE_r7525.log
+    1 file(s)	scrubbed/kais_v4/logs/c80_nvidia_smi.txt
+    46 file(s)	scrubbed/models/students/<run>/ccad_stockloop_run_summary.json
+project folder name not followed by machine label: 103 / 50
+    1 file(s)	scrubbed/kais_v4/PROVENANCE_KAIS_V4.md
+    1 file(s)	scrubbed/kais_v4/analysis/eval_kaisv4_best.py
+    1 file(s)	scrubbed/kais_v4/logs/SMOKE_r7525.log
+    1 file(s)	scrubbed/kais_v4/logs/c80_nvidia_smi.txt
+    46 file(s)	scrubbed/models/students/<run>/ccad_stockloop_run_summary.json
+dataset folder name: 8 / 4
+    1 file(s)	scrubbed/kais_v4/audit_out/runtime_gate/pre_train_cache.sha256
+    1 file(s)	scrubbed/kais_v4/audit_out/runtime_gate/run_pass1_seed42.log
+    1 file(s)	scrubbed/kais_v4/audit_out/runtime_gate/run_pass2_seed1337.log
+    1 file(s)	scrubbed/kais_v4/logs/SMOKE_r7525.log
+training-script paths: 7 / 1
+    1 file(s)	scrubbed/kais_v4/logs/c80_nvidia_smi.txt
+schedule-file relative path: 47 / 47
+    1 file(s)	scrubbed/kais_v4/logs/SMOKE_r7525.log
+    46 file(s)	scrubbed/models/students/<run>/ccad_stockloop_run_summary.json
+evidence-bank relative path: 47 / 47
+    1 file(s)	scrubbed/kais_v4/logs/SMOKE_r7525.log
+    46 file(s)	scrubbed/models/students/<run>/ccad_stockloop_run_summary.json
+evidence-bank digest: 94 / 47
+    1 file(s)	scrubbed/kais_v4/logs/SMOKE_r7525.log
+    46 file(s)	scrubbed/models/students/<run>/ccad_stockloop_run_summary.json
+environment name: 9 / 3
+    1 file(s)	scrubbed/kais_v4/PROVENANCE_KAIS_V4.md
+    1 file(s)	scrubbed/kais_v4/analysis/eval_kaisv4_best.py
+    1 file(s)	scrubbed/kais_v4/logs/c80_nvidia_smi.txt
+image-name source prefix: 2 / 1
+    1 file(s)	scrubbed/kais_v4/analysis/eval_kaisv4_internal.py
+machine labels: 183 / 59
+    1 file(s)	scrubbed/SCRUB_TABLE.tsv
+    44 file(s)	scrubbed/eval/factorial_v3_freeze/<run>/eval_env.json
+    1 file(s)	scrubbed/kais_v4/PROVENANCE_KAIS_V4.md
+    1 file(s)	scrubbed/kais_v4/analysis/eval_kaisv4_best.py
+    9 file(s)	scrubbed/kais_v4/logs/<chain and queue logs>
+    1 file(s)	scrubbed/kais_v4/logs/SMOKE_r7525.log
+    1 file(s)	scrubbed/kais_v4/logs/c80_nvidia_smi.txt
+    1 file(s)	tools/scrub.list
+
+[3] predictions.json
+files: 46  distinct image file names: 2262  per file min/max: 1399 1535
+images_scored values in 48 verification records: {'2827': 960}
+N_IMG line of bootstrap_a04.py: ['N_IMG, B = 2827, 2000']
+    865	<hexadecimal string>-<number>
+    844	hf_w_turki_ds_6__
+    295	cocohn_
+    130	hf_w_turki_ds_5__
+    41	hf_w_turki_ds_1__
+    34	hf_w_chips_
+    16	KnifeDefenseKrav<number>
+    12	knifeDefenseTechnique<number>
+    11	RealityKnifeAttacks<number>
+    8	DefenseAndSurvive<number>
+    5	online<number>
+    1	img<number>
+
+[4] residue greps over scrubbed/ tools/ README.md EXCLUDED.md
+GPU-[0-9a-f]{8}-: 0 hits in 0 of 310 files
+absolute project directory: 0 hits in 0 of 310 files
+absolute storage prefix followed by /: 0 hits in 0 of 310 files
+"pid": <integer>: 0 hits in 0 of 310 files
+project directory name: 0 hits in 0 of 310 files
+
+[5] as_filed digests against the manifest made before the follow-up
+as_filed files: 217  in previous manifest: 217  changed or new: 0
+
+[6] recomputed outputs against the filed results (bytes)
+    results_final_sbs.recomputed.json vs results_final_sbs_20261115T011951Z.json: byte-identical; parsed equal
+    results_add06.recomputed.json vs results_add06_20261121T045950Z.json: byte-identical; parsed equal
+    a04_contrasts.recomputed.json vs a04_contrasts_20261115T012010Z.json: byte-identical; parsed equal
+    recompute.py was run with: python 3.10.12  numpy 2.2.6  scipy 1.13.0
+    An earlier run of the same day under python 3.10.12, numpy 1.26.4, scipy 1.10.1 differed from the filed results in 74 values (ci95, p_two_sided, p_holm; largest difference 7.97e-12) of results_final_sbs and 40 values (ci95; largest 4.90e-12) of results_add06; a04_contrasts was identical.
+    RECOMPUTE_REPORT.txt last line: comparisons that differ: 0 ; MATCH lines: 20 ; DIFFERS lines: 0

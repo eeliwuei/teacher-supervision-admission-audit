@@ -1,0 +1,36 @@
+python 3.10.12  numpy 2.2.6  scipy 1.13.0
+eval view: 46 runs (metrics_unified.json from scrubbed/, predictions.json from as_filed/)
+MATCH    filed digest of kais_v4/ANALYSIS_ADDENDUM_06.md
+MATCH    filed digest of kais_v4/ablation_fixmap/queue_c80.sh
+MATCH    filed digest of kais_v4/ablation_fixmap/run_mech_c80.sh
+MATCH    filed digest of kais_v4/analysis/a04_contrasts.py
+MATCH    filed digest of kais_v4/analysis/analyze_add06.py
+MATCH    filed digest of kais_v4/analysis/analyze_kaisv4.py
+MATCH    filed digest of kais_v4/analysis/bootstrap_a04.py
+MATCH    filed digest of kais_v4/analysis/eval_kaisv4.py
+MATCH    filed digest of kais_v4/analysis/image_offset_bound.py
+MATCH    analyze_kaisv4.py -> results_final_sbs.recomputed.json vs filed results_final_sbs_20261115T011951Z.json  (471 numeric values, all identical)
+MATCH    analyze_add06.py -> results_add06.recomputed.json vs filed results_add06_20261121T045950Z.json  (291 numeric values, all identical)
+MATCH    a04_contrasts.py -> a04_contrasts.recomputed.json vs filed a04_contrasts_20261115T012010Z.json  (354 numeric values, all identical)
+MATCH    prediction pair std seed 42: bytes identical and digests as filed  90282f869911254f2ffd866f57f4ea9bdb37d3957ab62ee501e95c57407ec459
+MATCH    prediction pair std seed 1337: bytes identical and digests as filed  7fb028c4600b11fa8a99bdb102030ab6fbdf370969d7e400fbb5fd84be5fc4a8
+MATCH    prediction pair std seed 20260703: bytes identical and digests as filed  4673ccf97e80a7ebe543d2ef96cff3393ceec4cf29b1b880f9edaf5de3f506aa
+MATCH    prediction pair nokd seed 42: bytes identical and digests as filed  cd71252e7673eb971d30ac1df1a054e8d81833cdbc431a1031be2047ed2deaa7
+MATCH    prediction pair nokd seed 1337: bytes identical and digests as filed  101a2c9e81ff95d3e58022c1e49110d2ab9347a0836cd64312b05e68ecb11947
+MATCH    prediction pair nokd seed 20260703: bytes identical and digests as filed  f5f61633dd4a991c111ab6b9b6ad4631b847143a03d8e2be1fb9975b485abc05
+MATCH    prediction pair randmask seed 20260703: bytes identical and digests as filed  e14fe3734ccdbae7df69441f75fb9534931473010dda2f4a4b4e4290d968a6d5
+    identical prediction pairs: 7 of 7
+MATCH    run-time gate: summary and meta files give one admitted/eligible count for both passes  admitted 6434 of 9334
+    (read from the summary; the per-row files that produce it are not in the bundle)
+WROTE    current_kd_match_counts.tsv (46 runs; same columns as the filed historical table, which itself covers earlier runs whose summaries are not in the bundle)
+    C1-M-fixall_seed1337_kaisv4mech.admission.jsonl: first record calls=938 has_box=9334 labels=9695; last calls=140700 has_box=1400100
+    C1-M-fixall_seed20260703_kaisv4mech.admission.jsonl: first record calls=938 has_box=9334 labels=9695; last calls=140700 has_box=1400100
+    C1-M-fixall_seed42_kaisv4mech.admission.jsonl: first record calls=938 has_box=9334 labels=9695; last calls=140700 has_box=1400100
+    C1-M-oldmask_seed1337_kaisv4mech.admission.jsonl: first record calls=938 has_box=6434 labels=9695; last calls=140700 has_box=965100
+    C1-M-oldmask_seed20260703_kaisv4mech.admission.jsonl: first record calls=938 has_box=6434 labels=9695; last calls=140700 has_box=965100
+    C1-M-oldmask_seed42_kaisv4mech.admission.jsonl: first record calls=938 has_box=6434 labels=9695; last calls=140700 has_box=965100
+    C1-M-randmask-c80_seed20260703_kaisv4mech.admission.jsonl: first record calls=938 has_box=6434 labels=9695; last calls=140700 has_box=965100
+    C1-M-randmask_seed1337_kaisv4mech.admission.jsonl: first record calls=938 has_box=6434 labels=9695; last calls=140700 has_box=965100
+    C1-M-randmask_seed20260703_kaisv4mech.admission.jsonl: first record calls=938 has_box=6434 labels=9695; last calls=140700 has_box=965100
+    C1-M-randmask_seed42_kaisv4mech.admission.jsonl: first record calls=938 has_box=6434 labels=9695; last calls=140700 has_box=965100
+comparisons that differ: 0

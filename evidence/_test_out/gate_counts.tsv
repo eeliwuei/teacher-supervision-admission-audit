@@ -1,0 +1,5 @@
+source	admitted	eligible_rows	admitted_with_class_term	labels_iterated
+meta pass1_seed42	6434	9334	6265	9695
+meta pass2_seed1337	6434	9334	6265	9695
+summary pass 1	6434	9334		
+summary pass 2	6434	9334		

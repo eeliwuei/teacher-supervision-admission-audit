@@ -1,0 +1,123 @@
+static rows: 9334
+==================== runtime_gate_rows_pass1_seed42.csv
+row records: 9334 | unique row_id: 9334 | images: 8628
+static rows never seen in this pass: 0 | seen rows missing from static: 0
+ADMITTED 6434  REJECTED 2900  of 9334  rate 0.6893
+admitted with has_cls: 6265
+-- by class
+   gun                          n= 5371 admitted= 3576 rejected= 1795 rate=0.6658
+   knife                        n= 3457 admitted= 2615 rejected=  842 rate=0.7564
+   stick                        n=  506 admitted=  243 rejected=  263 rate=0.4802
+-- by RUN-TIME padding parity (960 - LetterBox input size, as observed in the pipeline)
+   even                         n= 7012 admitted= 5709 rejected= 1303 rate=0.8142
+   odd                          n= 2322 admitted=  725 rejected= 1597 rate=0.3122
+-- by static pad_parity (round model, published)
+   even                         n= 7387 admitted= 5677 rejected= 1710 rate=0.7685
+   odd                          n= 1947 admitted=  757 rejected= 1190 rate=0.3888
+-- by static ul_pad_parity (ceil model)
+   even                         n= 7012 admitted= 5709 rejected= 1303 rate=0.8142
+   odd                          n= 2322 admitted=  725 rejected= 1597 rate=0.3122
+-- by source
+   D2                           n= 5470 admitted= 3839 rejected= 1631 rate=0.7018
+   D3                           n= 2134 admitted= 1894 rejected=  240 rate=0.8875
+   D4                           n= 1564 admitted=  695 rejected=  869 rate=0.4444
+   other                        n=  166 admitted=    6 rejected=  160 rate=0.0361
+-- by size bin
+   large>=96^2                  n= 7075 admitted= 4653 rejected= 2422 rate=0.6577
+   medium                       n= 2037 admitted= 1580 rejected=  457 rate=0.7757
+   small<32^2                   n=  222 admitted=  201 rejected=   21 rate=0.9054
+-- by image aspect
+   square                       n= 1743 admitted= 1743 rejected=    0 rate=1.0000
+   tall                         n=  930 admitted=  307 rejected=  623 rate=0.3301
+   wide                         n= 6661 admitted= 4384 rejected= 2277 rate=0.6582
+-- static round parity | run-time parity
+   even|rt_even                 n= 6099 admitted= 5677 rejected=  422 rate=0.9308
+   even|rt_odd                  n= 1288 admitted=    0 rejected= 1288 rate=0.0000
+   odd|rt_even                  n=  913 admitted=   32 rejected=  881 rate=0.0350
+   odd|rt_odd                   n= 1034 admitted=  725 rejected=  309 rate=0.7012
+-- confusion run-time admitted vs static columns (rows=static value, cols=run-time 0/1)
+   admitted_int       s0r0=    0 s0r1=    0 s1r0= 2900 s1r1= 6434 agree=6434/9334
+   admitted_float     s0r0= 1190 s0r1=  757 s1r0= 1710 s1r1= 5677 agree=6867/9334
+   ul_admitted_int    s0r0= 2900 s0r1=    0 s1r0=    0 s1r1= 6434 agree=9334/9334
+   ul_admitted_float  s0r0= 2795 s0r1=  705 s1r0=  105 s1r1= 5729 agree=8524/9334
+-- geometry checks
+   ori (h,w) != bank (h,w): 0
+   resized_shape != (960,960): 0
+   LetterBox input (w,h) != static ul_new (ceil): 0
+   LetterBox input (w,h) != static new (round): 2201
+   observed (left,top) != round(total/2-0.1): 0
+   observed pipeline pad == adapter int pad, by admitted: {(True, '1'): 6434, (True, '0'): 1612, (False, '0'): 1288}
+   rows with no same-class label in batch: 0
+   admitted but gate_iou<0.999: 0 | rejected but gate_iou>=0.999 (greedy/other): 0
+   |gate_iou - static ul_iou_int|: max 0.000008 median 1.10e-07
+   |gate_iou - static iou_int(=1)|: max 0.114847
+   gate_iou admitted: n=6434 min=0.999000 median=1.000000
+   gate_iou rejected: n=2900 min=0.88515 p05=0.97968 median=0.99660 p95=0.99886 max=0.999000
+   rejected with gate_iou in [0.99,0.999): 2410 ; [0.95,0.99): 476 ; <0.95: 14
+   rejected rows max |edge offset adapter-batch| px: median 0.614 p95 0.960 max 1.000
+   admitted rows max |edge offset| px: median 0.0000 max 0.6934
+==================== runtime_gate_rows_pass2_seed1337.csv
+row records: 9334 | unique row_id: 9334 | images: 8628
+static rows never seen in this pass: 0 | seen rows missing from static: 0
+ADMITTED 6434  REJECTED 2900  of 9334  rate 0.6893
+admitted with has_cls: 6265
+-- by class
+   gun                          n= 5371 admitted= 3576 rejected= 1795 rate=0.6658
+   knife                        n= 3457 admitted= 2615 rejected=  842 rate=0.7564
+   stick                        n=  506 admitted=  243 rejected=  263 rate=0.4802
+-- by RUN-TIME padding parity (960 - LetterBox input size, as observed in the pipeline)
+   even                         n= 7012 admitted= 5709 rejected= 1303 rate=0.8142
+   odd                          n= 2322 admitted=  725 rejected= 1597 rate=0.3122
+-- by static pad_parity (round model, published)
+   even                         n= 7387 admitted= 5677 rejected= 1710 rate=0.7685
+   odd                          n= 1947 admitted=  757 rejected= 1190 rate=0.3888
+-- by static ul_pad_parity (ceil model)
+   even                         n= 7012 admitted= 5709 rejected= 1303 rate=0.8142
+   odd                          n= 2322 admitted=  725 rejected= 1597 rate=0.3122
+-- by source
+   D2                           n= 5470 admitted= 3839 rejected= 1631 rate=0.7018
+   D3                           n= 2134 admitted= 1894 rejected=  240 rate=0.8875
+   D4                           n= 1564 admitted=  695 rejected=  869 rate=0.4444
+   other                        n=  166 admitted=    6 rejected=  160 rate=0.0361
+-- by size bin
+   large>=96^2                  n= 7075 admitted= 4653 rejected= 2422 rate=0.6577
+   medium                       n= 2037 admitted= 1580 rejected=  457 rate=0.7757
+   small<32^2                   n=  222 admitted=  201 rejected=   21 rate=0.9054
+-- by image aspect
+   square                       n= 1743 admitted= 1743 rejected=    0 rate=1.0000
+   tall                         n=  930 admitted=  307 rejected=  623 rate=0.3301
+   wide                         n= 6661 admitted= 4384 rejected= 2277 rate=0.6582
+-- static round parity | run-time parity
+   even|rt_even                 n= 6099 admitted= 5677 rejected=  422 rate=0.9308
+   even|rt_odd                  n= 1288 admitted=    0 rejected= 1288 rate=0.0000
+   odd|rt_even                  n=  913 admitted=   32 rejected=  881 rate=0.0350
+   odd|rt_odd                   n= 1034 admitted=  725 rejected=  309 rate=0.7012
+-- confusion run-time admitted vs static columns (rows=static value, cols=run-time 0/1)
+   admitted_int       s0r0=    0 s0r1=    0 s1r0= 2900 s1r1= 6434 agree=6434/9334
+   admitted_float     s0r0= 1190 s0r1=  757 s1r0= 1710 s1r1= 5677 agree=6867/9334
+   ul_admitted_int    s0r0= 2900 s0r1=    0 s1r0=    0 s1r1= 6434 agree=9334/9334
+   ul_admitted_float  s0r0= 2795 s0r1=  705 s1r0=  105 s1r1= 5729 agree=8524/9334
+-- geometry checks
+   ori (h,w) != bank (h,w): 0
+   resized_shape != (960,960): 0
+   LetterBox input (w,h) != static ul_new (ceil): 0
+   LetterBox input (w,h) != static new (round): 2201
+   observed (left,top) != round(total/2-0.1): 0
+   observed pipeline pad == adapter int pad, by admitted: {(True, '1'): 6434, (True, '0'): 1612, (False, '0'): 1288}
+   rows with no same-class label in batch: 0
+   admitted but gate_iou<0.999: 0 | rejected but gate_iou>=0.999 (greedy/other): 0
+   |gate_iou - static ul_iou_int|: max 0.000008 median 1.10e-07
+   |gate_iou - static iou_int(=1)|: max 0.114847
+   gate_iou admitted: n=6434 min=0.999000 median=1.000000
+   gate_iou rejected: n=2900 min=0.88515 p05=0.97968 median=0.99660 p95=0.99886 max=0.999000
+   rejected with gate_iou in [0.99,0.999): 2410 ; [0.95,0.99): 476 ; <0.95: 14
+   rejected rows max |edge offset adapter-batch| px: median 0.614 p95 0.960 max 1.000
+   admitted rows max |edge offset| px: median 0.0000 max 0.6934
+==================== pass comparison
+rows in both passes: 9334 | images: 8628
+admitted differs: 0
+gate_iou differs (string): 0
+batch box differs: 0
+pad/resized differs: 0
+images whose pixel sum differs between passes (augmentation differed): 8628 of 8628
+same batch index for image in both passes: 9334 of 9334

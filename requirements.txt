@@ -1,0 +1,25 @@
+# The tools under evidence/tools/ and the gate recomputation in
+# evidence/gate_rows_nocoord/ use the Python 3 standard library only,
+# except as noted below (numpy, scipy, and pycocotools for one tool).
+#
+# numpy: needed by admission_audit/admission_audit.py (pandas is optional
+#        there, for CSV reading) and by the filed analysis scripts.
+# scipy: needed by the filed analysis scripts that
+#        evidence/tools/recompute.py starts.
+#
+# Exact equality with the filed analysis results was obtained with
+# Python 3.10.12, numpy 2.2.6 and scipy 1.13.0 (see evidence/README.md).
+# Other versions can give differences in the last digits of interval
+# bounds and p-values (see docs/REPRODUCE.md).
+# These two pins were used with Python 3.10.12. Other Python versions may
+# not be able to install them. The gate recomputation and
+# admission_audit.py also run with other versions (see docs/REPRODUCE.md).
+numpy==2.2.6
+scipy==1.13.0
+# Only for scripts/make_fig_admission.py:
+# matplotlib
+# Only for evidence/tools/recompute_map.py (with numpy):
+# pycocotools
+# That tool was tested with Python 3.11.12, numpy 2.4.6 and pycocotools 2.0.8
+# (difference 0 for 414 values). It was not tested with the pins above.
+# The pycocotools version of the filed evaluation is not recorded.

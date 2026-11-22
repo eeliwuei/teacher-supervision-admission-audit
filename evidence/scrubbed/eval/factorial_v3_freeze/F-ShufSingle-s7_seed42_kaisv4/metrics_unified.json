@@ -1,0 +1,20 @@
+{
+  "run": "F-ShufSingle-s7_seed42_kaisv4",
+  "cell": "F-ShufSingle-s7",
+  "seed": 42,
+  "mAP": 0.376860047216374,
+  "mAP50": 0.5509890857890029,
+  "mAP75": 0.3942895851981151,
+  "per_class": {
+    "knife": 0.4127800310571816,
+    "gun": 0.18736137980373221,
+    "stick": 0.5304387307882084
+  },
+  "per_class_ap50": {
+    "knife": 0.6201594104121707,
+    "gun": 0.3647987942108701,
+    "stick": 0.6680090527439679
+  },
+  "checkpoint": "<PROJECT_ROOT>/models/students/F-ShufSingle-s7_seed42_kaisv4/weights/last.pt",
+  "checkpoint_sha256": "7bff962065fd50ca621ba1280f1e1aaa94b2d37577d339f675641efe65e47fc9"
+}

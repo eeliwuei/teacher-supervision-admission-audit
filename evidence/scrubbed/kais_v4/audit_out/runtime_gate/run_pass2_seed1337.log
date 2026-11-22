@@ -1,0 +1,70 @@
+Ultralytics 8.4.24 🚀 Python-3.10.12 torch-2.6.0+cu124 CPU (Intel Xeon Gold 6430)
+[34m[1mengine/trainer: [0magnostic_nms=False, amp=False, angle=1.0, augment=False, auto_augment=randaugment, batch=16, bgr=0.0, box=7.5, cache=False, cfg=None, classes=None, close_mosaic=0, cls=0.5, compile=False, conf=None, copy_paste=0, copy_paste_mode=flip, cos_lr=False, cutmix=0, data=<NAS_ROOT>/00_data/weapon_detection_ccad_v2/dataset.yaml, degrees=0, deterministic=True, device=cpu, dfl=1.5, dnn=False, dropout=0.0, dynamic=False, embed=None, end2end=None, epochs=150, erasing=0, exist_ok=True, fliplr=0, flipud=0, format=torchscript, fraction=1.0, freeze=None, half=False, hsv_h=0.015, hsv_s=0.7, hsv_v=0.4, imgsz=960, int8=False, iou=0.7, keras=False, kobj=1.0, line_width=None, lr0=0.01, lrf=0.01, mask_ratio=4, max_det=300, mixup=0, mode=train, model=yolo26n.pt, momentum=0.937, mosaic=0, multi_scale=0, name=trainer_scratch_pass2_seed1337, nbs=64, nms=False, opset=None, optimize=False, optimizer=auto, overlap_mask=True, patience=100, perspective=0, plots=False, pose=12.0, pretrained=True, profile=False, project=<PROJECT_ROOT>/kais_v4/audit_out/runtime_gate, rect=False, resume=False, retina_masks=False, rle=1.0, save=True, save_conf=False, save_crop=False, save_dir=<PROJECT_ROOT>/kais_v4/audit_out/runtime_gate/trainer_scratch_pass2_seed1337, save_frames=False, save_json=False, save_period=5, save_txt=False, scale=0, seed=1337, shear=0, show=False, show_boxes=True, show_conf=True, show_labels=True, simplify=True, single_cls=False, source=None, split=val, stream_buffer=False, task=detect, time=None, tracker=botsort.yaml, translate=0, val=True, verbose=False, vid_stride=1, visualize=False, warmup_bias_lr=0.1, warmup_epochs=3.0, warmup_momentum=0.8, weight_decay=0.0005, workers=0, workspace=None
+[34m[1mtrain: [0mFast image access ✅ (ping: 0.2±0.1 ms, read: 1203.4±1558.4 MB/s, size: 333.4 KB)
+[K[34m[1mtrain: [0mScanning <NAS_ROOT>/00_data/weapon_detection_ccad_v2/labels/train.cache... 14996 images, 6038 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 14996/14996 2.0Git/s 0.0s
+[34m[1malbumentations: [0mBlur(p=0.01, blur_limit=(3, 7)), MedianBlur(p=0.01, blur_limit=(3, 7)), ToGray(p=0.01, method='weighted_average', num_output_channels=3), CLAHE(p=0.01, clip_limit=(1.0, 4.0), tile_grid_size=(8, 8))
+batch 0/938 images 16 labels 12 has_box 9 elapsed 0s
+batch 50/938 images 816 labels 530 has_box 359 elapsed 15s
+batch 100/938 images 1616 labels 1029 has_box 690 elapsed 30s
+batch 150/938 images 2416 labels 1525 has_box 1008 elapsed 45s
+batch 200/938 images 3216 labels 2050 has_box 1365 elapsed 59s
+batch 250/938 images 4016 labels 2549 has_box 1702 elapsed 74s
+batch 300/938 images 4816 labels 3089 has_box 2044 elapsed 89s
+batch 350/938 images 5616 labels 3627 has_box 2405 elapsed 103s
+batch 400/938 images 6416 labels 4130 has_box 2717 elapsed 117s
+batch 450/938 images 7216 labels 4648 has_box 3066 elapsed 132s
+batch 500/938 images 8016 labels 5208 has_box 3437 elapsed 147s
+batch 550/938 images 8816 labels 5722 has_box 3798 elapsed 162s
+batch 600/938 images 9616 labels 6207 has_box 4136 elapsed 177s
+batch 650/938 images 10416 labels 6739 has_box 4494 elapsed 191s
+batch 700/938 images 11216 labels 7267 has_box 4852 elapsed 206s
+batch 750/938 images 12016 labels 7787 has_box 5170 elapsed 221s
+batch 800/938 images 12816 labels 8281 has_box 5506 elapsed 235s
+batch 850/938 images 13616 labels 8798 has_box 5839 elapsed 250s
+batch 900/938 images 14416 labels 9296 has_box 6177 elapsed 264s
+{
+  "tag": "pass2_seed1337",
+  "seed": 1337,
+  "workers_requested": 0,
+  "workers_effective": 0,
+  "ultralytics": "8.4.24",
+  "torch": "2.6.0+cu124",
+  "n_images": 14996,
+  "n_batches": 938,
+  "batch_size": 16,
+  "eligible_rows_in_bank": 9334,
+  "dataset_transforms": "Compose(Compose(<ultralytics.data.augment.Mosaic object at 0x7fe4ed02f4f0>, <ultralytics.data.augment.CopyPaste object at 0x7fe4c0dd56f0>, <ultralytics.data.augment.RandomPerspective object at 0x7fe4bb96ae00>), <ultralytics.data.augment.MixUp object at 0x7fe4c0dd53f0>, <ultralytics.data.augment.CutMix object at 0x7fe4c0dd5480>, <ultralytics.data.augment.Albumentations object at 0x7fe4c0dd5450>, <ultralytics.data.augment.RandomHSV object at 0x7fe4c0dd5b10>, <ultralytics.data.augment.RandomFlip object at 0x7fe4ad2b2c80>, <ultralytics.data.augment.RandomFlip object at 0x7fe4ad2b2e60>, <ultralytics.data.augment.Format object at 0x7fe4ad2b2e30>)",
+  "augment": true,
+  "rect": false,
+  "imgsz": 960,
+  "adapter_sha256": "caea921e94f11467721e7aa223fe6760e0c9b67f2736410aadf20ac39b1ac118",
+  "trainer_sha256": "1750924604eb9c1b2fc7ea0384d540bb716ee52db762357631cd8e1b85d1d28d",
+  "iou_match_thr_default": [
+    0.999
+  ],
+  "batch_keys": [
+    "audit_lb_in_hw",
+    "audit_lb_ratio",
+    "audit_pad_lt",
+    "batch_idx",
+    "bboxes",
+    "cls",
+    "im_file",
+    "img",
+    "ori_shape",
+    "resized_shape"
+  ],
+  "has_ratio_pad_key": false,
+  "images_iterated": 14996,
+  "labels_iterated": 9695,
+  "sum_has_box": 6434,
+  "sum_has_cls": 6265,
+  "gt_uid_kinds": {
+    "no_teacher": 332,
+    "unmatched": 2929,
+    "matched": 6434
+  },
+  "elapsed_s": 275.0,
+  "out_csv": "<PROJECT_ROOT>/kais_v4/audit_out/runtime_gate/runtime_gate_rows_pass2_seed1337.csv"
+}
+DONE

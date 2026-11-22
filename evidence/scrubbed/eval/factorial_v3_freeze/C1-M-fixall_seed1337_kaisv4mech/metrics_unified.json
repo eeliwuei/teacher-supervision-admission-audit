@@ -1,0 +1,20 @@
+{
+  "run": "C1-M-fixall_seed1337_kaisv4mech",
+  "cell": "C1-M-fixall",
+  "seed": 1337,
+  "mAP": 0.36671070796095306,
+  "mAP50": 0.5398067923854778,
+  "mAP75": 0.3850505029141433,
+  "per_class": {
+    "knife": 0.41683109665608126,
+    "gun": 0.18818162399466504,
+    "stick": 0.495119403232113
+  },
+  "per_class_ap50": {
+    "knife": 0.6227326123620661,
+    "gun": 0.3620103044117729,
+    "stick": 0.6346774603825943
+  },
+  "checkpoint": "<PROJECT_ROOT>/models/students/C1-M-fixall_seed1337_kaisv4mech/weights/last.pt",
+  "checkpoint_sha256": "70c6e702b1e4d0a279d1989cec6903e004c215f1dde2b61d09c4530a49c30f87"
+}

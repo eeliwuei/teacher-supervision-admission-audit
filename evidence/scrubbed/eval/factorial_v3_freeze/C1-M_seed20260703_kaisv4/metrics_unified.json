@@ -1,0 +1,20 @@
+{
+  "run": "C1-M_seed20260703_kaisv4",
+  "cell": "C1-M",
+  "seed": 20260703,
+  "mAP": 0.3823291309794702,
+  "mAP50": 0.5468289941024711,
+  "mAP75": 0.4019944222543678,
+  "per_class": {
+    "knife": 0.42530415713781455,
+    "gun": 0.18989952235074564,
+    "stick": 0.5317837134498505
+  },
+  "per_class_ap50": {
+    "knife": 0.6174700283476628,
+    "gun": 0.35115676340049967,
+    "stick": 0.6718601905592506
+  },
+  "checkpoint": "<PROJECT_ROOT>/models/students/C1-M_seed20260703_kaisv4/weights/last.pt",
+  "checkpoint_sha256": "9ae78f37fe710ec2febf023df3f175746ce63ad07aaf27cc7ced042b2a96d048"
+}

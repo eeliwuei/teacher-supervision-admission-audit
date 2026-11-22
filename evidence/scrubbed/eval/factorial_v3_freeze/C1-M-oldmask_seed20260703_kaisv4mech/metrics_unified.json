@@ -1,0 +1,20 @@
+{
+  "run": "C1-M-oldmask_seed20260703_kaisv4mech",
+  "cell": "C1-M-oldmask",
+  "seed": 20260703,
+  "mAP": 0.3672280977279641,
+  "mAP50": 0.5497123699797665,
+  "mAP75": 0.38742793891792177,
+  "per_class": {
+    "knife": 0.41268089116987816,
+    "gun": 0.1870663308427449,
+    "stick": 0.5019370711712691
+  },
+  "per_class_ap50": {
+    "knife": 0.6170860252558116,
+    "gun": 0.36751324487604886,
+    "stick": 0.6645378398074392
+  },
+  "checkpoint": "<PROJECT_ROOT>/models/students/C1-M-oldmask_seed20260703_kaisv4mech/weights/last.pt",
+  "checkpoint_sha256": "21a7ae1af0028051e8663aea178d4fc0128e719e0f5cda2c6d9028325324b076"
+}

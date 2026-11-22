@@ -1,0 +1,20 @@
+{
+  "run": "C1-M-randmask_seed1337_kaisv4mech",
+  "cell": "C1-M-randmask",
+  "seed": 1337,
+  "mAP": 0.37913958664898734,
+  "mAP50": 0.5526830265804925,
+  "mAP75": 0.4014440747034353,
+  "per_class": {
+    "knife": 0.428826489492772,
+    "gun": 0.200121592156103,
+    "stick": 0.508470678298087
+  },
+  "per_class_ap50": {
+    "knife": 0.6199593144862109,
+    "gun": 0.3844580962338397,
+    "stick": 0.6536316690214269
+  },
+  "checkpoint": "<PROJECT_ROOT>/models/students/C1-M-randmask_seed1337_kaisv4mech/weights/last.pt",
+  "checkpoint_sha256": "be54dcaecacb2ae6177a4ba825cb4ce5310051f54602bd6a76b1d56a9471a717"
+}

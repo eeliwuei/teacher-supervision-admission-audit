@@ -1,0 +1,649 @@
+{
+ "contrasts": {
+  "P": {
+   "mAP50-95": {
+    "dbar_original": 0.013238818324038054,
+    "undefined_draws": 0,
+    "per_seed_original": [
+     0.018227704433364522,
+     -0.0003406922782010907,
+     0.021829442816950734
+    ],
+    "per_seed_sd_over_draws": [
+     0.006387642929419603,
+     0.006913203414037022,
+     0.006016335363056654
+    ],
+    "mean_over_draws": 0.013498086985053188,
+    "sd_over_draws": 0.004326151138858733,
+    "p2_5": 0.004986452471294412,
+    "p97_5": 0.022062235791977358,
+    "sentences": [
+     "For these trained models, the central 95% of the resampled mean differences excluded zero. This interval contains no seed-to-seed variation and does not describe other training runs."
+    ]
+   }
+  },
+  "P'": {
+   "mAP50-95": {
+    "dbar_original": 0.013238818324038054,
+    "undefined_draws": 0,
+    "per_seed_original": [
+     0.018227704433364522,
+     -0.0003406922782010907,
+     0.021829442816950734
+    ],
+    "per_seed_sd_over_draws": [
+     0.006387642929419603,
+     0.006913203414037022,
+     0.006016335363056654
+    ],
+    "mean_over_draws": 0.013498086985053188,
+    "sd_over_draws": 0.004326151138858733,
+    "p2_5": 0.004986452471294412,
+    "p97_5": 0.022062235791977358,
+    "sentences": [
+     "For these trained models, the central 95% of the resampled mean differences excluded zero. This interval contains no seed-to-seed variation and does not describe other training runs."
+    ]
+   }
+  },
+  "B1": {
+   "mAP50-95": {
+    "dbar_original": 0.00950440112667178,
+    "undefined_draws": 0,
+    "per_seed_original": [
+     -0.00013511315652975364,
+     0.004352587518254847,
+     0.024295729018290246
+    ],
+    "per_seed_sd_over_draws": [
+     0.007120906332391593,
+     0.008266648152153023,
+     0.00844987194892443
+    ],
+    "mean_over_draws": 0.009183468967576658,
+    "sd_over_draws": 0.0046379667972007155,
+    "p2_5": 0.0003676600304508824,
+    "p97_5": 0.018278564588766817,
+    "sentences": [
+     "For these trained models, the central 95% of the resampled mean differences excluded zero. This interval contains no seed-to-seed variation and does not describe other training runs."
+    ]
+   }
+  },
+  "B2": {
+   "mAP50-95": {
+    "dbar_original": 0.01147180557403645,
+    "undefined_draws": 0,
+    "per_seed_original": [
+     0.011991665729128242,
+     0.007973483207019294,
+     0.014450267785961812
+    ],
+    "per_seed_sd_over_draws": [
+     0.007435316767974839,
+     0.008733569797761059,
+     0.007085637301456459
+    ],
+    "mean_over_draws": 0.011486148598977732,
+    "sd_over_draws": 0.004740330013204286,
+    "p2_5": 0.002348339865287398,
+    "p97_5": 0.02054810151986893,
+    "sentences": [
+     "For these trained models, the central 95% of the resampled mean differences excluded zero. This interval contains no seed-to-seed variation and does not describe other training runs."
+    ]
+   }
+  },
+  "B3": {
+   "mAP50-95": {
+    "dbar_original": 0.0017041463682394935,
+    "undefined_draws": 0,
+    "per_seed_original": [
+     0.011524965149770028,
+     -0.012852157312690793,
+     0.006439631267639245
+    ],
+    "per_seed_sd_over_draws": [
+     0.005814477890331398,
+     0.007477251360479921,
+     0.0051723269140461865
+    ],
+    "mean_over_draws": 0.0020704910257113864,
+    "sd_over_draws": 0.0036832403199103573,
+    "p2_5": -0.004783158333732002,
+    "p97_5": 0.009204397774411024,
+    "sentences": [
+     "For these trained models, the central 95% of the mean differences obtained by resampling the validation images lay within +/-0.01. This interval contains no seed-to-seed variation and does not describe other training runs."
+    ]
+   }
+  },
+  "B3'": {
+   "mAP50-95": {
+    "dbar_original": 0.0017041463682394935,
+    "undefined_draws": 0,
+    "per_seed_original": [
+     0.011524965149770028,
+     -0.012852157312690793,
+     0.006439631267639245
+    ],
+    "per_seed_sd_over_draws": [
+     0.005814477890331398,
+     0.007477251360479921,
+     0.0051723269140461865
+    ],
+    "mean_over_draws": 0.0020704910257113864,
+    "sd_over_draws": 0.0036832403199103573,
+    "p2_5": -0.004783158333732002,
+    "p97_5": 0.009204397774411024,
+    "sentences": [
+     "For these trained models, the central 95% of the mean differences obtained by resampling the validation images lay within +/-0.01. This interval contains no seed-to-seed variation and does not describe other training runs."
+    ]
+   }
+  },
+  "Q1": {
+   "mAP50-95": {
+    "dbar_original": 0.01839284236880419,
+    "undefined_draws": 0,
+    "per_seed_original": [
+     0.026406957797932507,
+     0.007784689620690788,
+     0.020986879687789284
+    ],
+    "per_seed_sd_over_draws": [
+     0.00743328593191261,
+     0.00917961583823021,
+     0.008703845665612204
+    ],
+    "mean_over_draws": 0.018450350053700344,
+    "sd_over_draws": 0.005396430364828959,
+    "p2_5": 0.00792676395758983,
+    "p97_5": 0.029147904024628267,
+    "sentences": [
+     "For these trained models, the central 95% of the resampled mean differences excluded zero. This interval contains no seed-to-seed variation and does not describe other training runs."
+    ]
+   },
+   "knife": {
+    "dbar_original": 0.010145155495473937,
+    "undefined_draws": 0,
+    "per_seed_original": [
+     0.016738273152612226,
+     0.008894655065370183,
+     0.004802538268439405
+    ],
+    "per_seed_sd_over_draws": [
+     0.009017605964574687,
+     0.008304390965068248,
+     0.008714757358946185
+    ],
+    "mean_over_draws": 0.010115641490192867,
+    "sd_over_draws": 0.005277764322489334,
+    "p2_5": 5.276700392871324e-05,
+    "p97_5": 0.02009111186506994
+   },
+   "gun": {
+    "dbar_original": 0.004815806383296946,
+    "undefined_draws": 0,
+    "per_seed_original": [
+     0.005650378265694922,
+     -0.004059984300912006,
+     0.012857025185107923
+    ],
+    "per_seed_sd_over_draws": [
+     0.005977665639985612,
+     0.006017365698573648,
+     0.00642188582441663
+    ],
+    "mean_over_draws": 0.00485421588559338,
+    "sd_over_draws": 0.0035862973026697157,
+    "p2_5": -0.002029134241876494,
+    "p97_5": 0.011784569541739077
+   },
+   "stick": {
+    "dbar_original": 0.040217565227641784,
+    "undefined_draws": 0,
+    "per_seed_original": [
+     0.05683222197549037,
+     0.018519398097614215,
+     0.04530107560982077
+    ],
+    "per_seed_sd_over_draws": [
+     0.01889136602702403,
+     0.02551267047837809,
+     0.02387037053948847
+    ],
+    "mean_over_draws": 0.04038119278531478,
+    "sd_over_draws": 0.014698503420299483,
+    "p2_5": 0.010859859801798906,
+    "p97_5": 0.06949174994028744
+   }
+  },
+  "Q2": {
+   "mAP50-95": {
+    "dbar_original": -0.005413387592680341,
+    "undefined_draws": 0,
+    "per_seed_original": [
+     -0.01474012335583913,
+     0.010292144498803224,
+     -0.011792183921005117
+    ],
+    "per_seed_sd_over_draws": [
+     0.007484518895060393,
+     0.008339665215237841,
+     0.007372530810350461
+    ],
+    "mean_over_draws": -0.0056330032713317124,
+    "sd_over_draws": 0.004353002938779336,
+    "p2_5": -0.013967646792511619,
+    "p97_5": 0.0032384594091560003,
+    "sentences": [
+     "For these trained models, the central 95% of the resampled mean differences included zero and extended beyond +/-0.01. This interval contains no seed-to-seed variation and does not describe other training runs."
+    ]
+   },
+   "knife": {
+    "dbar_original": -0.003387519917165127,
+    "undefined_draws": 0,
+    "per_seed_original": [
+     -0.016211676589646395,
+     -0.0020035404967707615,
+     0.008052657334921776
+    ],
+    "per_seed_sd_over_draws": [
+     0.008197721624800655,
+     0.007855930691148287,
+     0.0090768269144128
+    ],
+    "mean_over_draws": -0.0027367008805127017,
+    "sd_over_draws": 0.004756022466329253,
+    "p2_5": -0.012146178601940845,
+    "p97_5": 0.006092051186871514
+   },
+   "gun": {
+    "dbar_original": 0.001395374479937354,
+    "undefined_draws": 0,
+    "per_seed_original": [
+     0.0036146882806520897,
+     0.0022495374795502565,
+     -0.0016781023203902845
+    ],
+    "per_seed_sd_over_draws": [
+     0.005925534151916352,
+     0.006127575449416614,
+     0.005829602189085531
+    ],
+    "mean_over_draws": 0.0010865275419514378,
+    "sd_over_draws": 0.00339510415004327,
+    "p2_5": -0.005399295891958987,
+    "p97_5": 0.007726170666003932
+   },
+   "stick": {
+    "dbar_original": -0.01424801734081338,
+    "undefined_draws": 0,
+    "per_seed_original": [
+     -0.031623381758523084,
+     0.030630436513630066,
+     -0.04175110677754712
+    ],
+    "per_seed_sd_over_draws": [
+     0.019747572363708443,
+     0.022650525456966376,
+     0.018595315426451802
+    ],
+    "mean_over_draws": -0.015248836475433873,
+    "sd_over_draws": 0.011619785774628686,
+    "p2_5": -0.03786089226621626,
+    "p97_5": 0.007136713901475626
+   }
+  },
+  "Q3": {
+   "mAP50-95": {
+    "dbar_original": -0.002108728049197317,
+    "undefined_draws": 0,
+    "per_seed_original": [
+     -0.008819255100472545,
+     -0.0021367341892310487,
+     0.004629805142111643
+    ],
+    "per_seed_sd_over_draws": [
+     0.008088931190891704,
+     0.007726283655593907,
+     0.007025574634472885
+    ],
+    "mean_over_draws": -0.0022520881544987902,
+    "sd_over_draws": 0.003998382024356323,
+    "p2_5": -0.009857979908699169,
+    "p97_5": 0.005534925617434161,
+    "sentences": [
+     "For these trained models, the central 95% of the mean differences obtained by resampling the validation images lay within +/-0.01. This interval contains no seed-to-seed variation and does not describe other training runs."
+    ]
+   },
+   "knife": {
+    "dbar_original": -0.006200190952461031,
+    "undefined_draws": 0,
+    "per_seed_original": [
+     -0.00797549575832629,
+     -0.013998933333461527,
+     0.0033738562344047263
+    ],
+    "per_seed_sd_over_draws": [
+     0.008322597395173612,
+     0.00817339680656438,
+     0.00823719518096833
+    ],
+    "mean_over_draws": -0.005954327276169744,
+    "sd_over_draws": 0.004713052981472624,
+    "p2_5": -0.015056291481198084,
+    "p97_5": 0.0036810800987913004
+   },
+   "gun": {
+    "dbar_original": -0.005633024169687796,
+    "undefined_draws": 0,
+    "per_seed_original": [
+     -0.0011079398782581074,
+     -0.009690430681887713,
+     -0.0061007019489175696
+    ],
+    "per_seed_sd_over_draws": [
+     0.006340464882083718,
+     0.00622149531142602,
+     0.005775257140682897
+    ],
+    "mean_over_draws": -0.005726998286762256,
+    "sd_over_draws": 0.0035341515405028414,
+    "p2_5": -0.012693859747423463,
+    "p97_5": 0.0010645818010550558
+   },
+   "stick": {
+    "dbar_original": 0.005507030974556755,
+    "undefined_draws": 0,
+    "per_seed_original": [
+     -0.01737432966483332,
+     0.017279161447656066,
+     0.01661626114084752
+    ],
+    "per_seed_sd_over_draws": [
+     0.021693318166361164,
+     0.020346934773322615,
+     0.01909376781311475
+    ],
+    "mean_over_draws": 0.00492506109943563,
+    "sd_over_draws": 0.010449171839933432,
+    "p2_5": -0.01555643439991291,
+    "p97_5": 0.025510905839936676
+   }
+  },
+  "Q4": {
+   "mAP50-95": {
+    "dbar_original": -0.003304659543483024,
+    "undefined_draws": 0,
+    "per_seed_original": [
+     -0.005920868255366585,
+     0.012428878688034273,
+     -0.01642198906311676
+    ],
+    "per_seed_sd_over_draws": [
+     0.007196144315768428,
+     0.008088439053520208,
+     0.007600847856692276
+    ],
+    "mean_over_draws": -0.0033809151168329226,
+    "sd_over_draws": 0.0042260144338746196,
+    "p2_5": -0.011526967604644748,
+    "p97_5": 0.005303591678083629,
+    "sentences": [
+     "For these trained models, the central 95% of the resampled mean differences included zero and extended beyond +/-0.01. This interval contains no seed-to-seed variation and does not describe other training runs."
+    ]
+   },
+   "knife": {
+    "dbar_original": 0.002812671035295903,
+    "undefined_draws": 0,
+    "per_seed_original": [
+     -0.008236180831320106,
+     0.011995392836690766,
+     0.004678801100517049
+    ],
+    "per_seed_sd_over_draws": [
+     0.008014304103162184,
+     0.008038854467418982,
+     0.008708573257303407
+    ],
+    "mean_over_draws": 0.003217626395657042,
+    "sd_over_draws": 0.0048362154461879395,
+    "p2_5": -0.0061406851680030185,
+    "p97_5": 0.01239017799181047
+   },
+   "gun": {
+    "dbar_original": 0.0070283986496251505,
+    "undefined_draws": 0,
+    "per_seed_original": [
+     0.004722628158910197,
+     0.01193996816143797,
+     0.004422599628527285
+    ],
+    "per_seed_sd_over_draws": [
+     0.00622950771330709,
+     0.0059861901106817855,
+     0.005386187198936734
+    ],
+    "mean_over_draws": 0.006813525828713693,
+    "sd_over_draws": 0.0034873206678077964,
+    "p2_5": 0.00014318403691806531,
+    "p97_5": 0.01346119201493195
+   },
+   "stick": {
+    "dbar_original": -0.019755048315370134,
+    "undefined_draws": 0,
+    "per_seed_original": [
+     -0.014249052093689762,
+     0.013351275065974,
+     -0.05836736791839464
+    ],
+    "per_seed_sd_over_draws": [
+     0.018715025777080934,
+     0.02187694152438507,
+     0.020574192568051253
+    ],
+    "mean_over_draws": -0.020173897574869506,
+    "sd_over_draws": 0.010955829126502212,
+    "p2_5": -0.04144443444775045,
+    "p97_5": 0.001801501259369763
+   }
+  },
+  "Q5": {
+   "mAP50-95": {
+    "dbar_original": 0.007885347450140209,
+    "undefined_draws": 0,
+    "per_seed_original": [
+     0.015230296113897757,
+     -0.006675287014983211,
+     0.01510103325150608
+    ],
+    "per_seed_sd_over_draws": [
+     0.00803214247529512,
+     0.0063731023066616495,
+     0.007368501207816839
+    ],
+    "mean_over_draws": 0.008213815481540902,
+    "sd_over_draws": 0.0038789779172411333,
+    "p2_5": 0.0005219599260007059,
+    "p97_5": 0.015754729360324845,
+    "sentences": [
+     "For these trained models, the central 95% of the resampled mean differences excluded zero. This interval contains no seed-to-seed variation and does not describe other training runs."
+    ]
+   },
+   "knife": {
+    "dbar_original": 0.011647815859469909,
+    "undefined_draws": 0,
+    "per_seed_original": [
+     0.008615644463677907,
+     0.013704537146795426,
+     0.012623265967936392
+    ],
+    "per_seed_sd_over_draws": [
+     0.008571055359311007,
+     0.008527852737117305,
+     0.009069591468207417
+    ],
+    "mean_over_draws": 0.01162174510738181,
+    "sd_over_draws": 0.005229928995185528,
+    "p2_5": 0.0014472987081613723,
+    "p97_5": 0.021720420390358187
+   },
+   "gun": {
+    "dbar_original": -0.001152929924878458,
+    "undefined_draws": 0,
+    "per_seed_original": [
+     -0.00441843288977109,
+     -0.001873548392865021,
+     0.0028331915080007375
+    ],
+    "per_seed_sd_over_draws": [
+     0.006079824170053718,
+     0.0061491617633864445,
+     0.005953081143551077
+    ],
+    "mean_over_draws": -0.0006973361206204727,
+    "sd_over_draws": 0.0035762728416214975,
+    "p2_5": -0.00800340747002745,
+    "p97_5": 0.006121998688134758
+   },
+   "stick": {
+    "dbar_original": 0.013161156415829286,
+    "undefined_draws": 0,
+    "per_seed_original": [
+     0.04149367676778648,
+     -0.031856849798880094,
+     0.02984664227858147
+    ],
+    "per_seed_sd_over_draws": [
+     0.021415920438539234,
+     0.01599039821078845,
+     0.0193753345964357
+    ],
+    "mean_over_draws": 0.01371703745786137,
+    "sd_over_draws": 0.009846037994785537,
+    "p2_5": -0.005780074359063144,
+    "p97_5": 0.03278431620697232
+   }
+  }
+ },
+ "models": {
+  "C0-R-std_seed1337_kaisv4mech": {
+   "mAP_sd_over_draws": 0.013680478663992562
+  },
+  "C0-R-std_seed42_kaisv4mech": {
+   "mAP_sd_over_draws": 0.013615894228932609
+  },
+  "C0-R_seed1337_kaisv4": {
+   "mAP_sd_over_draws": 0.013358032023051634
+  },
+  "C0-R_seed20260703_kaisv4": {
+   "mAP_sd_over_draws": 0.013504400610214061
+  },
+  "C0-R_seed42_kaisv4": {
+   "mAP_sd_over_draws": 0.013104803853729911
+  },
+  "C1-M-fixall_seed1337_kaisv4mech": {
+   "mAP_sd_over_draws": 0.01421831867988964
+  },
+  "C1-M-fixall_seed20260703_kaisv4mech": {
+   "mAP_sd_over_draws": 0.01331926607641734
+  },
+  "C1-M-fixall_seed42_kaisv4mech": {
+   "mAP_sd_over_draws": 0.013133403842538494
+  },
+  "C1-M-oldmask_seed1337_kaisv4mech": {
+   "mAP_sd_over_draws": 0.013191046541831798
+  },
+  "C1-M-oldmask_seed20260703_kaisv4mech": {
+   "mAP_sd_over_draws": 0.01338935789960402
+  },
+  "C1-M-oldmask_seed42_kaisv4mech": {
+   "mAP_sd_over_draws": 0.013098937148684856
+  },
+  "C1-M-randmask_seed1337_kaisv4mech": {
+   "mAP_sd_over_draws": 0.01335384262873951
+  },
+  "C1-M-randmask_seed20260703_kaisv4mech": {
+   "mAP_sd_over_draws": 0.013462200837027299
+  },
+  "C1-M-randmask_seed42_kaisv4mech": {
+   "mAP_sd_over_draws": 0.013827171457693877
+  },
+  "C1-M-std_seed1337_kaisv4mech": {
+   "mAP_sd_over_draws": 0.013753815349354988
+  },
+  "C1-M-std_seed42_kaisv4mech": {
+   "mAP_sd_over_draws": 0.01306969998470403
+  },
+  "C1-M_seed1337_kaisv4": {
+   "mAP_sd_over_draws": 0.012945027508820183
+  },
+  "C1-M_seed20260703_kaisv4": {
+   "mAP_sd_over_draws": 0.013452263384994969
+  },
+  "C1-M_seed42_kaisv4": {
+   "mAP_sd_over_draws": 0.01324755485378023
+  },
+  "C4-M_seed1337_kaisv4": {
+   "mAP_sd_over_draws": 0.014031042811033406
+  },
+  "C4-M_seed20260703_kaisv4": {
+   "mAP_sd_over_draws": 0.01375827350815377
+  },
+  "C4-M_seed42_kaisv4": {
+   "mAP_sd_over_draws": 0.013701795045421003
+  },
+  "CBox-M_seed1337_kaisv4": {
+   "mAP_sd_over_draws": 0.01350433187094952
+  },
+  "CBox-M_seed20260703_kaisv4": {
+   "mAP_sd_over_draws": 0.013350625789132197
+  },
+  "CBox-M_seed42_kaisv4": {
+   "mAP_sd_over_draws": 0.01341248562743862
+  },
+  "F-MonoSingle_seed1337_v3factorial_intpad": {
+   "mAP_sd_over_draws": 0.014031042811033406
+  },
+  "F-MonoSingle_seed42_v3factorial_intpad": {
+   "mAP_sd_over_draws": 0.013701795045421003
+  },
+  "F-ShufSingle-s4_seed1337_kaisv4": {
+   "mAP_sd_over_draws": 0.013325177414793936
+  },
+  "F-ShufSingle-s4_seed20260703_kaisv4": {
+   "mAP_sd_over_draws": 0.013116313566414068
+  },
+  "F-ShufSingle-s4_seed42_kaisv4": {
+   "mAP_sd_over_draws": 0.013501567891188624
+  },
+  "F-ShufSingle-s5_seed1337_kaisv4": {
+   "mAP_sd_over_draws": 0.013272684461215567
+  },
+  "F-ShufSingle-s5_seed20260703_kaisv4": {
+   "mAP_sd_over_draws": 0.013234866568037455
+  },
+  "F-ShufSingle-s5_seed42_kaisv4": {
+   "mAP_sd_over_draws": 0.013034815600709855
+  },
+  "F-ShufSingle-s6_seed1337_kaisv4": {
+   "mAP_sd_over_draws": 0.013861930850988219
+  },
+  "F-ShufSingle-s6_seed20260703_kaisv4": {
+   "mAP_sd_over_draws": 0.01291018748911745
+  },
+  "F-ShufSingle-s6_seed42_kaisv4": {
+   "mAP_sd_over_draws": 0.013606230015844541
+  },
+  "F-ShufSingle-s7_seed1337_kaisv4": {
+   "mAP_sd_over_draws": 0.013527809685556355
+  },
+  "F-ShufSingle-s7_seed20260703_kaisv4": {
+   "mAP_sd_over_draws": 0.013663982507224347
+  },
+  "F-ShufSingle-s7_seed42_kaisv4": {
+   "mAP_sd_over_draws": 0.0137766404849375
+  }
+ },
+ "n_models_expected": 39,
+ "n_models_with_verify": 39,
+ "gt_sha256_distinct": 1
+}

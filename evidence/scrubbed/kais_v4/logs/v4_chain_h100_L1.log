@@ -1,0 +1,7 @@
+2026-11-10T01:00:21Z START F-ShufSingle-s4_seed42_kaisv4 host=<HOST> dev=0
+2026-11-11T10:40:02Z DONE F-ShufSingle-s4_seed42_kaisv4 rc=0
+2026-11-11T10:40:02Z START F-ShufSingle-s4_seed1337_kaisv4 host=<HOST> dev=0
+2026-11-12T19:57:23Z DONE F-ShufSingle-s4_seed1337_kaisv4 rc=0
+2026-11-12T19:57:23Z START C0-R_seed42_kaisv4 host=<HOST> dev=0
+2026-11-13T23:05:57Z DONE C0-R_seed42_kaisv4 rc=0
+2026-11-13T23:05:57Z LANE h100_L1 ALL DONE

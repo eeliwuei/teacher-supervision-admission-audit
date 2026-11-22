@@ -1,0 +1,20 @@
+{
+  "run": "CBox-M_seed20260703_kaisv4",
+  "cell": "CBox-M",
+  "seed": 20260703,
+  "mAP": 0.3678788631935084,
+  "mAP50": 0.5511690875164165,
+  "mAP75": 0.3924750794208901,
+  "per_class": {
+    "knife": 0.4207287866564934,
+    "gun": 0.18015526544243474,
+    "stick": 0.502752537481597
+  },
+  "per_class_ap50": {
+    "knife": 0.627973413262894,
+    "gun": 0.3507148296622681,
+    "stick": 0.6748190196240871
+  },
+  "checkpoint": "<PROJECT_ROOT>/models/students/CBox-M_seed20260703_kaisv4/weights/last.pt",
+  "checkpoint_sha256": "c6eeda5c592222015f62fa99d652a68f453d851d9c5c67720929d095928282f9"
+}
