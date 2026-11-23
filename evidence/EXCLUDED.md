@@ -37,7 +37,7 @@ Sizes are those on the server on 21 Nov 2026.
 | `STATE_KAIS_V4.md` | Working note, not needed for any result. | Nothing needed for a result. |
 | Best-checkpoint evaluations (44 directories, 169 MB) | Sensitivity analysis only; same layout as the endpoint directories, with ground truth copies. | `bestpt_sensitivity_*.json` can be read but not recomputed. |
 | Checkpoint provenance audit (7 files), comparability inputs (4 files) | Not part of the three main results; server paths, one e-mail-like string. The checkpoint provenance record, with server paths replaced by placeholders, is Online Resource 11 of the paper. | The supporting record for the provenance and comparability statements. |
-| Aborted and invalid runs (11 runs set aside before evaluation; logs, model and evaluation directories, two draw files) | Never opened, by rule. Their existence is recorded in the timing record. | Nothing that enters a result. |
+| Aborted and invalid runs (11 attempts that enter no analysis; logs, model and evaluation directories, two draw files) | Enter no result. Ten were never evaluated. The wrongly configured CBox-M run at seed 20260703 had been evaluated once before its configuration error was found; its values are not used. Their existence is recorded in the timing record. | Nothing that enters a result. |
 
 ## Files that do not exist or were not found
 

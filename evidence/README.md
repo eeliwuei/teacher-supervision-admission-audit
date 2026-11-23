@@ -466,6 +466,9 @@ Rebuild of `gate_rows_nocoord/` (22 Nov 2026, CPU only):
     admitted rows of D2, with its figures. No data file and no script of the folder changed. The digest of
     the README in `gate_rows_nocoord/SHA256SUMS.txt` and `MANIFEST.sha256` were regenerated; the manifest
     still lists 555 files. The script was not rerun for this addition.
+16. One row of `EXCLUDED.md` was corrected: the 11 attempts that enter no analysis include one run that had
+    been evaluated once before its configuration error was found. No other file changed except `README.md`
+    and `MANIFEST.sha256`, which was regenerated; it still lists 555 files.
 
 Not tested: the RFC 3161 tokens; anything that needs images, checkpoints or a GPU; all 2,000 draws of the
 image-resampling analysis.

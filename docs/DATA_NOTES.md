@@ -29,7 +29,7 @@ Row keys of restricted subsets:
 
 Left out for size or because they add nothing to the recomputation:
 
-- Training logs, checkpoints, evaluation logs, argument files, the evaluation directories of the sensitivity analyses, and the runs that were set aside before evaluation.
+- Training logs, checkpoints, evaluation logs, argument files, the evaluation directories of the sensitivity analyses, and the 11 attempts that entered no analysis. Ten of them were never evaluated; the wrongly configured CBox-M run at seed 20260703 had been evaluated once before its configuration error was found, and its values are not used.
 
 No image is included anywhere in the repository.
 
