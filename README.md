@@ -121,4 +121,4 @@ The accompanying paper is under review; the citation will be added on publicatio
 
 ## License
 
-No license has been chosen yet. Until the authors add one, all rights are reserved.
+The code and documentation of this repository are released under the MIT License (see [LICENSE](LICENSE)). Files derived from the third-party data sets remain subject to the terms of those data sets; see [docs/DATA_NOTES.md](docs/DATA_NOTES.md).
